@@ -1,5 +1,7 @@
 # HackHaste (HaHa)
 
+[TRY IT NOW, WITHOUT INSTALL!](https://24kjvs.github.io/HackHaste/WEB/#try)
+
 *Expedited Typing Across* **OS***es* *Integrated Natively Salvaging Home Rows*
 
 ![HackHaste](source/visuals/hackhaste-hh-logo.png)
