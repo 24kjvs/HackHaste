@@ -1,0 +1,18 @@
+! HackHaste keyboard layout. Dr. Marcus Roe, https://drm.cc/ . MIT License.
+! x3270 keymap.haha: PF/PA on HaHa-sensible keys. Letters follow the PC layout.
+x3270.keymap: haha
+x3270.keymap.haha: \n\
+  <Key>F1: PF(1)\n\
+  <Key>F2: PF(2)\n\
+  <Key>F3: PF(3)\n\
+  <Key>F4: PF(4)\n\
+  <Key>F5: PF(5)\n\
+  <Key>F6: PF(6)\n\
+  <Key>F7: PF(7)\n\
+  <Key>F8: PF(8)\n\
+  <Key>F9: PF(9)\n\
+  <Key>F10: PF(10)\n\
+  <Key>F11: PF(11)\n\
+  <Key>F12: PF(12)\n\
+  <Key>Escape: Reset()\n\
+  <Key>Return: Enter()\n

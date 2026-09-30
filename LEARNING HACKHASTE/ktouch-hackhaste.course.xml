@@ -1,0 +1,212 @@
+<?xml version="1.0"?>
+<course>
+  <id>{a1b00409-2026-4002-8000-000000000011}</id>
+  <title>HackHaste</title>
+  <description>HackHaste finger course. Chants in MNEMONICS.md.</description>
+  <keyboardLayout>haha</keyboardLayout>
+  <lessons>
+    <lesson>
+      <id>{a1b00409-2026-4002-8000-00000000101}</id>
+      <title>Home vowels</title>
+      <newCharacters>uiaeo</newCharacters>
+      <text>u u u u u u u u i i i i i i i i a a a a a a a a e e e e e e
+e e o o o o o o o o ui ia ae eo o e a i u i a i a o a e u i
+i a e o a i u i a e u i o a i a a u i e o i a a i o e u i a
+e a u i o i a e o a u i i a u o a e i i a i o e u a i a a o
+u e i i a a e u i o i a a e i u o i a o a u e i i a e i o a
+u i a u o e i a i a i o a e u i a a i o e u i a o i a u e i
+a a o e u i i a a u i e o i a u o a e i i a i e a u o i a i
+a u e o i a i u a o e i a a i e u o i a u a e o i i a i a u
+e o i a i a e o u i a u e i o a i a e u a o i i a a e o u i
+i a i u e o a i a a u e o i i a i o e a u i a i a e o u i a
+a u e o i i a i u a e o i a</text>
+    </lesson>
+    <lesson>
+      <id>{a1b00409-2026-4002-8000-00000000102}</id>
+      <title>Home consonants</title>
+      <newCharacters>hrstnp</newCharacters>
+      <text>h h h h h h h h r r r r r r r r s s s s s s s s t t t t t t
+t t n n n n n n n n p p p p p p p p hr rs st tn np p n t s r
+h to start soon represent sure trip those other on our hours
+east part horse turn test then son noun these paper here hat
+interest hope see use nation in true run thus point stop
+poor out north oh set rather step there heat up note return
+eat sense southern europe is sent not thin air as area ship
+appear rain tone suppose has their earth sharp near phrase
+ten paint tree iron sat rise too either surprise art shape
+separate hear his or she rest person hot another pattern
+perhaps train so at pair it spot us one a are he upon ran
+hit seen sea into sun heart short south stars hair an i no</text>
+    </lesson>
+    <lesson>
+      <id>{a1b00409-2026-4002-8000-00000000103}</id>
+      <title>Stops of the vowel hand</title>
+      <newCharacters>',./</newCharacters>
+      <text>' ' ' ' ' ' ' ' , , , , , , , , . . . . . . . . / / / / / /
+/ / ', ,. ./ / . , ' three use reason ears north hear tree
+rather as that person sure rise seen perhaps eat noun heat
+are true tone shape return test house rain east paper
+represent thus position near present in sense then he those
+per us ran she trip rest into another hope note hair here
+sea point to spot at horse one poor root start separate this
+or sat interest sun air a sit sit other put street set run
+hot her it oh hit his sharp hours europe stop has son it's
+appear south suppose report their out short thin stone pair
+southern train turn i nation pattern the phrase up too part
+unit past isn't surprise ship not earth hat is store iron</text>
+    </lesson>
+    <lesson>
+      <id>{a1b00409-2026-4002-8000-00000000104}</id>
+      <title>Letter-row digits</title>
+      <newCharacters>7890</newCharacters>
+      <text>7 7 7 7 7 7 7 7 8 8 8 8 8 8 8 8 9 9 9 9 9 9 9 9 0 0 0 0 0 0
+0 0 78 89 90 0 9 8 7 our thin out their an house root too
+rain rest turn has these ten here surprise test shape three
+than paper suppose ran set those the use put north position
+pair southern he air one horse sure no short us iron tone
+hot she earth i per that sent it's trip step stone state
+heat either reason store another note into area sharp is
+true stars unit eat appear europe interest are start hat
+point top sun so son at oh tree sense train south pattern
+hit past east sea then to on not hair ship hear return
+street hope up stop perhaps seen thus present this or
+represent as it art rather rise report nation person heart</text>
+    </lesson>
+    <lesson>
+      <id>{a1b00409-2026-4002-8000-00000000105}</id>
+      <title>The suit minus equal</title>
+      <newCharacters>-=</newCharacters>
+      <text>- - - - - - - - = = = = = = = = -= = - than ship south a in
+sharp horse see the other noun pattern eat report area earth
+one their hat another up sat oh out root hear then these
+seen i into not state short sit sit stone north represent
+stop true top our use on shape unit trip an pair that it
+position hair ten phrase paper air separate run iron suppose
+she store upon poor europe those he surprise note tree open
+his this reason nation hot put sea present no interest per
+sense three isn't sent person ears test point there son part
+thin rain start house or either so rest spot perhaps
+southern thus has us near paint are hope it's sure turn past
+rather set appear her step stars ran sun east too return art</text>
+    </lesson>
+    <lesson>
+      <id>{a1b00409-2026-4002-8000-00000000106}</id>
+      <title>Number-row rest</title>
+      <newCharacters>123456</newCharacters>
+      <text>1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 4 4 4 4
+4 4 5 5 5 5 5 5 5 5 6 6 6 6 6 6 6 6 12 23 34 45 56 6 5 4 3 2
+1 heat per as their are sun noun pattern past rather is poor
+represent seen trip true east area paint pair rain either
+southern south upon paper in separate sit sit hours tone
+sense hope house a shape our here it's no this ran he other
+into at then another air north store tree there son horse oh
+put us europe earth use top note iron heart soon root isn't
+reason hair turn stop stars state out on stone or test
+person nation hot up so ears short phrase an one interest it
+step that sea hat those sure unit i spot thus rise art sharp
+his not run train set part street three perhaps thin sent</text>
+    </lesson>
+    <lesson>
+      <id>{a1b00409-2026-4002-8000-00000000107}</id>
+      <title>Stay Calm Dude</title>
+      <newCharacters>cd</newCharacters>
+      <text>c c c c c c c c d d d d d d d d cd d c drop a distance sound
+case indian note church tree so rather either picture train
+put need direction students can't iron contain once
+continued unit notice interest heard sat per direct has ride
+head hope art spread act ahead the inside cause doctor
+appear door that hit speed our did south idea store southern
+surprise do paper tied is hand to don't turn return red
+decided instead passed phrase had scientists consonant short
+add insects understand part there present president printed
+test their reason died send center trade third corner
+entered certain horse into cannot rich thin coast process
+cents isn't course second correct reached she us cross ran</text>
+    </lesson>
+    <lesson>
+      <id>{a1b00409-2026-4002-8000-00000000108}</id>
+      <title>VeGeTaBle</title>
+      <newCharacters>gb</newCharacters>
+      <text>g g g g g g g g b b b b b b b b gb b g idea add drop around
+state poor on reason period picture green current interest
+bad rich phrase behind eggs hat instead process begin deep
+hair indian corner pounds thin crops go other interesting
+top sharp pattern about no seen each branches speed contain
+boat tone describe bed action big need nothing return can't
+sun sat person got oh nation done engine distance great
+stood car inside sight and son shape ride spot gas passed
+stars europe too change cut trade bones during though
+teacher catch hand cross across second he board their hours
+produce air than his died happened spring is store god
+through together does stop round radio do better soon both</text>
+    </lesson>
+    <lesson>
+      <id>{a1b00409-2026-4002-8000-00000000109}</id>
+      <title>Kite and Home</title>
+      <newCharacters>kljm</newCharacters>
+      <text>k k k k k k k k l l l l l l l l j j j j j j j j m m m m m m
+m m kl lj jm m j l k better pounds pushed appear through
+green also turn along southern decided sense land number
+printed table not direct got open include cloud soldiers
+board soon so birds products island pair mark call keep
+place see ocean home third shape line amount phrase store
+laughed caught material ears measure suggested japanese
+paper let consonant sit sit rolled sometimes park notice
+come remember ten each milk upon middle to practice eat side
+coast stars ride letter light person choose mountain could
+mile addition pole control earth job because surprise
+special street send ship plane sat no blue done back has</text>
+    </lesson>
+    <lesson>
+      <id>{a1b00409-2026-4002-8000-00000000110}</id>
+      <title>You're Welcome Friend</title>
+      <newCharacters>yw;f</newCharacters>
+      <text>y y y y y y y y w w w w w w w w ; ; ; ; ; ; ; ; f f f f f f
+f f yw w; ;f f ; w y life look together street cells again
+floor captain law rather care against garden england try
+round branches rule dollars time both represent caught
+reason general suddenly train feeling should hot paragraph
+under few mean dog am spell brought mark decimal necessary
+really church sharp material action cents where beat bit
+call didn't problem form snow use joined well broken left
+green design run today consider with winter front list
+compound difference printed window known farm distance white
+upon rain addition shoulder strong drop day high still
+understand while wonder is we'll enough rich children full</text>
+    </lesson>
+    <lesson>
+      <id>{a1b00409-2026-4002-8000-00000000111}</id>
+      <title>Xeno Zenith Questions</title>
+      <newCharacters>vxzq</newCharacters>
+      <text>v v v v v v v v x x x x x x x x z z z z z z z z q q q q q q
+q q vx xz zq q z x v sent human describe speak high we'll
+ground natural only report sum where out length engine lot
+easy legs river coast boat space back ever grew my smiled
+measure cattle any eight up end uncle give as send stand
+hear might rock corner matter children once six had control
+anything felt desert dress down developed need age whole
+different water consonant grow every follow well believe
+course this particular there cook sea stop wild spread night
+amount garden meat law state old single shoulder suddenly
+happened road temperature teacher good general rain later
+section family build answer ahead study ring string equation</text>
+    </lesson>
+    <lesson>
+      <id>{a1b00409-2026-4002-8000-00000000112}</id>
+      <title>Brackets</title>
+      <newCharacters>[]</newCharacters>
+      <text>[ [ [ [ [ [ [ [ ] ] ] ] ] ] ] ] [] ] [ matter fish
+temperature exactly equation earth race alone because sign
+won't song give tube oil draw design free home a should
+other feel ground famous boy pay questions members industry
+chief system feeling light job dress catch how addition sure
+didn't silent new by lay scale plant count snow branches
+deep wish point i were sea what become around shall story
+spring lifted street able during special at just our moment
+stood went could open birds triangle never poem doctor radio
+let metal rhythm these need stick sight method printed
+region between poor company information night fine blood
+ball let's life know or provide save area something most</text>
+    </lesson>
+  </lessons>
+</course>

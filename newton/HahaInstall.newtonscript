@@ -1,0 +1,7 @@
+{ HackHaste keyboard layout. Dr. Marcus Roe, https://drm.cc/ . MIT License. }
+{ NewtonScript stub: would install PREF/KCHR if packed with NTK. }
+constant kHahaLayout := "HackHaste";
+func HahaInstall()
+begin
+  GetRoot().Notify(kNotifyLog, kHahaLayout & " needs NTK to become a .pkg");
+end;

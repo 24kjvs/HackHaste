@@ -1,0 +1,25 @@
+REGEDIT4
+
+; HackHaste keyboard layout. Dr. Marcus Roe, https://drm.cc/ . MIT License.
+; 32-bit Windows NT 3.51 / 4.0 (and later x86 NT). Copy the i386 DLLs to %SystemRoot%\SYSTEM32 first.
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a1b00409]
+"Layout File"="kbdhaha.dll"
+"Layout Text"="HackHaste"
+"Layout Id"="00E1"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a1b10409]
+"Layout File"="kbdhahaleft.dll"
+"Layout Text"="HackHaste Left"
+"Layout Id"="00E2"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a1b20409]
+"Layout File"="kbdhahasl.dll"
+"Layout Text"="HackHaste Shift Lock"
+"Layout Id"="00E3"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\a1b30409]
+"Layout File"="kbdhahalsl.dll"
+"Layout Text"="HackHaste Left Shift Lock"
+"Layout Id"="00E4"
+

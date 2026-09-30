@@ -1,0 +1,7 @@
+post_install() {
+  python3 /usr/share/hackhaste/register-hackhaste-xkb.py >/dev/null 2>&1 || true
+}
+
+post_upgrade() {
+  post_install
+}

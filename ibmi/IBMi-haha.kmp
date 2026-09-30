@@ -1,0 +1,20 @@
+; HackHaste keyboard layout. Dr. Marcus Roe, https://drm.cc/ . MIT License.
+[KeyRemap]
+; Letters follow the PC HackHaste layout. These are 5250 host functions.
+; Digit cluster 7-0 / 1-6 is the natural home for Cmd keys.
+S27=[sysreq]
+1=[cmd1]
+2=[cmd2]
+3=[cmd3]
+4=[cmd4]
+5=[cmd5]
+6=[cmd6]
+7=[cmd7]
+8=[cmd8]
+9=[cmd9]
+0=[cmd10]
+-=[cmd11]
+=[cmd12]
+Enter=[enter]
+Tab=[field+]
+Esc=[attn]

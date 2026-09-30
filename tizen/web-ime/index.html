@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>HackHaste</title>
+  <style>
+    body { background: #1a1a1a; color: #eee; font-family: sans-serif; margin: 0; }
+    .row { display: flex; }
+    button { flex: 1; margin: 2px; padding: 10px 0; background: #333; color: #eee; border: 0; }
+  </style>
+</head>
+<body>
+  <div id="board"></div>
+  <script src="keys.js"></script>
+  <script src="web-helper-client.js"></script>
+  <script>
+    var shifted = false, left = false;
+    function glyph(id) {
+      var t = left ? HACKHASTE_KEYS["haha-left"] : HACKHASTE_KEYS.haha;
+      var p = t[id]; if (!p) return "";
+      return shifted ? p[1] : p[0];
+    }
+    function commit(t) {
+      if (window.WebHelperClient && WebHelperClient.commitString) WebHelperClient.commitString(t);
+    }
+    function draw() {
+      var board = document.getElementById("board");
+      board.innerHTML = "";
+      ["number","letter","home","bottom"].forEach(function (name) {
+        var row = document.createElement("div"); row.className = "row";
+        HACKHASTE_ROWS[name].forEach(function (id) {
+          var b = document.createElement("button");
+          b.textContent = glyph(id);
+          b.onclick = function () { commit(glyph(id)); };
+          row.appendChild(b);
+        });
+        board.appendChild(row);
+      });
+    }
+    draw();
+  </script>
+</body>
+</html>

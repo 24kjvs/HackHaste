@@ -1,0 +1,8 @@
+# HackHaste keyboard layout. Dr. Marcus Roe, https://drm.cc/ . MIT License.
+# Append these lines to /usr/share/syscons/keymaps/INDEX.keymaps
+# so kbdmap(1) lists HackHaste.
+
+haha.iso15.acc.kbd:en:HackHaste HackHaste
+haha-left.iso15.acc.kbd:en:HackHaste HackHaste Left
+haha-shiftlock.iso15.acc.kbd:en:HackHaste HackHaste Shift Lock
+haha-left-shiftlock.iso15.acc.kbd:en:HackHaste HackHaste Left Shift Lock

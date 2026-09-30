@@ -1,0 +1,42 @@
+{
+  "name": "HackHaste",
+  "fold": "Pre cannot grow a 15-key ANSI cluster. Vowels left, HRSTNP right, rares on orange.",
+  "layout": [
+    [
+      "u",
+      "i",
+      "a",
+      "e",
+      "o",
+      "h",
+      "r",
+      "s",
+      "t",
+      "n"
+    ],
+    [
+      "p",
+      "7",
+      "8",
+      "9",
+      "0",
+      "-",
+      "k",
+      "l",
+      "c",
+      "g"
+    ],
+    [
+      "'",
+      ",",
+      ".",
+      "/",
+      "=",
+      "j",
+      "m",
+      "d",
+      "b",
+      "f"
+    ]
+  ]
+}

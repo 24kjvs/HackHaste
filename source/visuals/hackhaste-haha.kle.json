@@ -1,0 +1,128 @@
+[
+  {
+    "name": "HackHaste",
+    "author": "Dr. Marcus Roe",
+    "notes": "HackHaste typing cluster. Caps Lock is Control. Physical Left Ctrl is Caps Lock. Right Alt is AltGr. F-row, nav island, arrows, and numpad are unmapped and omitted. MIT License.",
+    "backcolor": "#00000000"
+  },
+  [
+    {
+      "c": "#111111",
+      "t": "#F4F1EA"
+    },
+    "~\n`",
+    "!\n1",
+    "@\n2",
+    "#\n3",
+    "$\n4",
+    "%\n5",
+    "^\n6",
+    "{\n[",
+    "}\n]",
+    "V",
+    "X",
+    "Z",
+    "Q",
+    {
+      "w": 2
+    },
+    "Backspace"
+  ],
+  [
+    {
+      "w": 1.5
+    },
+    "Tab",
+    "&\n7",
+    "*\n8",
+    "(\n9",
+    ")\n0",
+    "_\n-",
+    "K",
+    "L",
+    "C",
+    "G",
+    "Y",
+    "W",
+    ":\n;",
+    {
+      "w": 1.5
+    },
+    "|\n\\"
+  ],
+  [
+    {
+      "w": 1.75
+    },
+    "Ctrl",
+    {
+      "c": "#2A241C",
+      "t": "#F4F1EA"
+    },
+    "U",
+    "I",
+    "A",
+    "E",
+    "O",
+    {
+      "c": "#1C2428",
+      "t": "#F4F1EA"
+    },
+    "H",
+    "R",
+    "S",
+    "T",
+    "N",
+    "P",
+    {
+      "c": "#111111",
+      "t": "#F4F1EA",
+      "w": 2.25
+    },
+    "Enter"
+  ],
+  [
+    {
+      "w": 2.25
+    },
+    "Shift",
+    "\"\n'",
+    "<\n,",
+    ">\n.",
+    "?\n/",
+    "+\n=",
+    "J",
+    "M",
+    "D",
+    "B",
+    "F",
+    {
+      "w": 2.75
+    },
+    "Shift"
+  ],
+  [
+    {
+      "w": 1.25
+    },
+    "Caps",
+    {
+      "w": 1.25
+    },
+    "Alt",
+    {
+      "a": 7,
+      "w": 10
+    },
+    "",
+    {
+      "a": 4,
+      "w": 1.25
+    },
+    "AltGr",
+    {
+      "w": 1.25
+    },
+    "Ctrl"
+  ]
+]

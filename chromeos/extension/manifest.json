@@ -1,0 +1,62 @@
+{
+  "manifest_version": 3,
+  "name": "HackHaste",
+  "version": "0.2",
+  "description": "HackHaste keyboard layout for ChromeOS (ash IME).",
+  "permissions": [
+    "input"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "input_components": [
+    {
+      "name": "HackHaste",
+      "type": "ime",
+      "id": "com.hackhaste.haha",
+      "description": "HackHaste physical layout",
+      "language": [
+        "en"
+      ],
+      "layouts": [
+        "us"
+      ]
+    },
+    {
+      "name": "HackHaste Left",
+      "type": "ime",
+      "id": "com.hackhaste.haha_left",
+      "description": "HackHaste Left physical layout",
+      "language": [
+        "en"
+      ],
+      "layouts": [
+        "us"
+      ]
+    },
+    {
+      "name": "HackHaste Shift Lock",
+      "type": "ime",
+      "id": "com.hackhaste.haha_shiftlock",
+      "description": "HackHaste Shift Lock physical layout",
+      "language": [
+        "en"
+      ],
+      "layouts": [
+        "us"
+      ]
+    },
+    {
+      "name": "HackHaste Left Shift Lock",
+      "type": "ime",
+      "id": "com.hackhaste.haha_left_shiftlock",
+      "description": "HackHaste Left Shift Lock physical layout",
+      "language": [
+        "en"
+      ],
+      "layouts": [
+        "us"
+      ]
+    }
+  ]
+}

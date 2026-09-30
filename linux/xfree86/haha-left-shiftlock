@@ -1,0 +1,11 @@
+// HackHaste keyboard layout. Dr. Marcus Roe, https://drm.cc/ . MIT License.
+// XFree86 / X.Org 6.x symbols for HackHaste Left Shift Lock.
+partial default alphanumeric_keys modifier_keys
+xkb_symbols "basic" {
+    include "haha-left(basic)"
+    name[Group1]= "HackHaste Left Shift Lock";
+    // Physical Left Control latches Shift for digits, punctuation,
+    // and letters. Right Control stays Control. Caps stays Control.
+    replace key <LCTL> { [ Shift_Lock ], type[group1] = "ONE_LEVEL" };
+    modifier_map Shift { Shift_Lock };
+};

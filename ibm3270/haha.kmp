@@ -1,0 +1,22 @@
+; HackHaste keyboard layout. Dr. Marcus Roe, https://drm.cc/ . MIT License.
+[Keyboard]
+[KeyRemap]
+; PF1-6 on number-row 1-6 (physical AE01-AE06) once HackHaste is the PC layout.
+1=[pf1]
+2=[pf2]
+3=[pf3]
+4=[pf4]
+5=[pf5]
+6=[pf6]
+; PF7-12 on letter-row digits 7-0 plus minus/k (AD01-AD06).
+7=[pf7]
+8=[pf8]
+9=[pf9]
+0=[pf10]
+-=[pf11]
+k=[pf12]
+Esc=[reset]
+Enter=[enter]
+Pause=[pa1]
+ScrollLock=[pa2]
+F13=[pa3]

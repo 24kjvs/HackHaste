@@ -1,0 +1,121 @@
+// HackHaste keyboard layout. Dr. Marcus Roe, https://drm.cc/ . MIT License.
+// Generated glyph tables. The Keyboard Extension draws these rows.
+// Hardware USB/Smart Keyboard letters are not remapped by this extension.
+
+import Foundation
+
+enum HackHasteKeys {
+    static let main: [String: (String, String)] = [
+        "TLDE": ("`", "~"),
+        "AE01": ("1", "!"),
+        "AE02": ("2", "@"),
+        "AE03": ("3", "#"),
+        "AE04": ("4", "$"),
+        "AE05": ("5", "%"),
+        "AE06": ("6", "^"),
+        "AE07": ("[", "{"),
+        "AE08": ("]", "}"),
+        "AE09": ("v", "V"),
+        "AE10": ("x", "X"),
+        "AE11": ("z", "Z"),
+        "AE12": ("q", "Q"),
+        "AD01": ("7", "&"),
+        "AD02": ("8", "*"),
+        "AD03": ("9", "("),
+        "AD04": ("0", ")"),
+        "AD05": ("-", "_"),
+        "AD06": ("k", "K"),
+        "AD07": ("l", "L"),
+        "AD08": ("c", "C"),
+        "AD09": ("g", "G"),
+        "AD10": ("y", "Y"),
+        "AD11": ("w", "W"),
+        "AD12": (";", ":"),
+        "BKSL": ("\\", "|"),
+        "AC01": ("u", "U"),
+        "AC02": ("i", "I"),
+        "AC03": ("a", "A"),
+        "AC04": ("e", "E"),
+        "AC05": ("o", "O"),
+        "AC06": ("h", "H"),
+        "AC07": ("r", "R"),
+        "AC08": ("s", "S"),
+        "AC09": ("t", "T"),
+        "AC10": ("n", "N"),
+        "AC11": ("p", "P"),
+        "AB01": ("'", "\""),
+        "AB02": (",", "<"),
+        "AB03": (".", ">"),
+        "AB04": ("/", "?"),
+        "AB05": ("=", "+"),
+        "AB06": ("j", "J"),
+        "AB07": ("m", "M"),
+        "AB08": ("d", "D"),
+        "AB09": ("b", "B"),
+        "AB10": ("f", "F"),
+        "LSGT": ("-", "_"),
+        "SPCE": (" ", " ")
+    ]
+    static let left: [String: (String, String)] = [
+        "TLDE": ("`", "~"),
+        "AE01": ("x", "X"),
+        "AE02": ("v", "V"),
+        "AE03": ("z", "Z"),
+        "AE04": ("q", "Q"),
+        "AE05": ("w", "W"),
+        "AE06": (";", ":"),
+        "AE07": ("1", "!"),
+        "AE08": ("2", "@"),
+        "AE09": ("3", "#"),
+        "AE10": ("4", "$"),
+        "AE11": ("5", "%"),
+        "AE12": ("6", "^"),
+        "AD01": ("p", "P"),
+        "AD02": ("g", "G"),
+        "AD03": ("c", "C"),
+        "AD04": ("l", "L"),
+        "AD05": ("k", "K"),
+        "AD06": ("-", "_"),
+        "AD07": ("7", "&"),
+        "AD08": ("8", "*"),
+        "AD09": ("9", "("),
+        "AD10": ("0", ")"),
+        "AD11": ("[", "{"),
+        "AD12": ("]", "}"),
+        "BKSL": ("\\", "|"),
+        "AC01": ("n", "N"),
+        "AC02": ("t", "T"),
+        "AC03": ("s", "S"),
+        "AC04": ("r", "R"),
+        "AC05": ("h", "H"),
+        "AC06": ("o", "O"),
+        "AC07": ("e", "E"),
+        "AC08": ("a", "A"),
+        "AC09": ("i", "I"),
+        "AC10": ("u", "U"),
+        "AC11": ("y", "Y"),
+        "AB01": ("f", "F"),
+        "AB02": ("b", "B"),
+        "AB03": ("d", "D"),
+        "AB04": ("m", "M"),
+        "AB05": ("j", "J"),
+        "AB06": ("=", "+"),
+        "AB07": ("'", "\""),
+        "AB08": (",", "<"),
+        "AB09": (".", ">"),
+        "AB10": ("/", "?"),
+        "LSGT": ("-", "_"),
+        "SPCE": (" ", " ")
+    ]
+
+    static let numberRow = ["AE01", "AE02", "AE03", "AE04", "AE05", "AE06", "AE07", "AE08", "AE09", "AE10", "AE11", "AE12"]
+    static let letterRow = ["AD01", "AD02", "AD03", "AD04", "AD05", "AD06", "AD07", "AD08", "AD09", "AD10", "AD11", "AD12"]
+    static let homeRow = ["AC01", "AC02", "AC03", "AC04", "AC05", "AC06", "AC07", "AC08", "AC09", "AC10", "AC11"]
+    static let bottomRow = ["AB01", "AB02", "AB03", "AB04", "AB05", "AB06", "AB07", "AB08", "AB09", "AB10"]
+
+    static func glyph(variantLeft: Bool, xkb: String, shifted: Bool) -> String {
+        let table = variantLeft ? left : main
+        guard let pair = table[xkb] else { return "" }
+        return shifted ? pair.1 : pair.0
+    }
+}

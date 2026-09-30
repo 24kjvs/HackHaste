@@ -1,0 +1,93 @@
+# HackHaste Shift Lock for DragonFly BSD syscons
+# HackHaste keyboard layout. Dr. Marcus Roe, https://drm.cc/ . MIT License.
+
+#                                                         alt
+# scan                       cntrl          alt    alt   cntrl lock
+# code  base   shift  cntrl  shift  alt    shift  cntrl  shift state
+# ------------------------------------------------------------------
+
+  041   '`'    '~'    nop    nop    dtil   '~'    nop    nop    C
+  002   '1'    '!'    nop    nop    '¡'    '¹'    nop    nop    C
+  003   '2'    '@'    nop    nop    'º'    '²'    nop    nop    C
+  004   '3'    '#'    nop    nop    'ª'    '³'    nop    nop    C
+  005   '4'    '$'    nop    nop    '¢'    '£'    nop    nop    C
+  006   '5'    '%'    nop    nop    nop    '¥'    nop    nop    C
+  007   '6'    '^'    nop    nop    nop    nop    nop    nop    C
+  008   '['    '{'    nop    nop    '«'    nop    nop    nop    C
+  009   ']'    '}'    nop    nop    '»'    nop    nop    nop    C
+  010   'v'    'V'    syn    syn    nop    nop    syn    syn    C
+  011   'x'    'X'    can    can    dcir   '~'    can    can    C
+  012   'z'    'Z'    sub    sub    'æ'    'Æ'    sub    sub    C
+  013   'q'    'Q'    dc1    dc1    'ä'    'Ä'    dc1    dc1    C
+  016   '7'    '&'    nop    nop    'ð'    'Ð'    nop    nop    C
+  017   '8'    '*'    nop    nop    'þ'    'Þ'    nop    nop    C
+  018   '9'    '('    nop    nop    nop    nop    nop    nop    C
+  019   '0'    ')'    nop    nop    nop    nop    nop    nop    C
+  020   '-'    '_'    nop    nop    nop    nop    nop    nop    C
+  021   'k'    'K'    vt     vt     drin   '~'    vt     vt     C
+  022   'l'    'L'    ff     ff     nop    nop    ff     ff     C
+  023   'c'    'C'    etx    etx    'ç'    'Ç'    etx    etx    C
+  024   'g'    'G'    bel    bel    dogo   '~'    bel    bel    C
+  025   'y'    'Y'    em     em     'ü'    'Ü'    em     em     C
+  026   'w'    'W'    etb    etb    'å'    'Å'    etb    etb    C
+  027   ';'    ':'    nop    nop    'ö'    'Ö'    nop    nop    C
+  043   '\\'   '|'    nop    nop    '~'    '~'    nop    nop    C
+  030   'u'    'U'    nak    nak    'ú'    'Ú'    nak    nak    C
+  031   'i'    'I'    ht     ht     'í'    'Í'    ht     ht     C
+  032   'a'    'A'    soh    soh    'á'    'Á'    soh    soh    C
+  033   'e'    'E'    enq    enq    'é'    'É'    enq    enq    C
+  034   'o'    'O'    si     si     'ó'    'Ó'    si     si     C
+  035   'h'    'H'    bs     bs     dcar   '~'    bs     bs     C
+  036   'r'    'R'    dc2    dc2    dgra   '~'    dc2    dc2    C
+  037   's'    'S'    dc3    dc3    'ß'    '~'    dc3    dc3    C
+  038   't'    'T'    dc4    dc4    dacu   ddac   dc4    dc4    C
+  039   'n'    'N'    so     so     'ñ'    'Ñ'    so     so     C
+  040   'p'    'P'    dle    dle    'ø'    'Ø'    dle    dle    C
+  044   '''    '"'    nop    nop    'õ'    'Õ'    nop    nop    C
+  045   ','    '<'    nop    nop    dced   '~'    nop    nop    C
+  046   '.'    '>'    nop    nop    ddot   '~'    nop    nop    C
+  047   '/'    '?'    nop    nop    '¿'    '~'    nop    nop    C
+  048   '='    '+'    nop    nop    '×'    '÷'    nop    nop    C
+  049   'j'    'J'    nl     nl     nop    nop    nl     nl     C
+  050   'm'    'M'    cr     cr     dmac   '~'    cr     cr     C
+  051   'd'    'D'    eot    eot    duml   '~'    eot    eot    C
+  052   'b'    'B'    stx    stx    dbre   '~'    stx    stx    C
+  053   'f'    'F'    ack    ack    'ã'    'Ã'    ack    ack    C
+  086   '-'    '_'    nop    nop    nop    nop    nop    nop    C
+  057   ' '    ' '    nul    nul    ' '    nop    nul    nul    C
+
+  000   nop    nop    nop    nop    nop    nop    nop    nop     O
+  001   esc    esc    esc    esc    esc    esc    debug  debug   O
+  014   bs     bs     del    del    bs     bs     del    del     O
+  015   ht     btab   nscr   nscr   ht     btab   nop    nop     O
+  028   cr     cr     nl     nl     cr     cr     nl     nl      O
+  029   clock  clock  clock  clock  clock  clock  clock  clock   O
+  042   lshift lshift lshift lshift lshift lshift lshift lshift  O
+  054   rshift rshift rshift rshift rshift rshift rshift rshift  O
+  056   lalt   lalt   lalt   lalt   lalt   lalt   lalt   lalt    O
+  058   lctrl  lctrl  lctrl  lctrl  lctrl  lctrl  lctrl  lctrl   O
+  090   rctrl  rctrl  rctrl  rctrl  rctrl  rctrl  rctrl  rctrl   O
+  093   ralt   ralt   ralt   ralt   ralt   ralt   ralt   ralt    O
+
+  dgra  '`'  ( 'a' 224 ) ( 'A' 192 ) ( 'e' 232 ) ( 'E' 200 )
+             ( 'i' 236 ) ( 'I' 204 ) ( 'o' 242 ) ( 'O' 210 )
+             ( 'u' 249 ) ( 'U' 217 )
+  dacu  180  ( 'a' 225 ) ( 'A' 193 ) ( 'e' 233 ) ( 'E' 201 )
+             ( 'i' 237 ) ( 'I' 205 ) ( 'o' 243 ) ( 'O' 211 )
+             ( 'u' 250 ) ( 'U' 218 )
+  dcir  '^'  ( 'a' 226 ) ( 'A' 194 ) ( 'e' 234 ) ( 'E' 202 )
+             ( 'i' 238 ) ( 'I' 206 ) ( 'o' 244 ) ( 'O' 212 )
+             ( 'u' 251 ) ( 'U' 219 )
+  dtil  '~'  ( 'a' 227 ) ( 'A' 195 ) ( 'n' 241 ) ( 'N' 209 )
+             ( 'o' 245 ) ( 'O' 213 )
+  duml  168  ( 'a' 228 ) ( 'A' 196 ) ( 'e' 235 ) ( 'E' 203 )
+             ( 'i' 239 ) ( 'I' 207 ) ( 'o' 246 ) ( 'O' 214 )
+             ( 'u' 252 ) ( 'U' 220 )
+  drin  176  ( 'a' 229 ) ( 'A' 197 )
+  dced  184  ( 'c' 231 ) ( 'C' 199 )
+  dmac  000
+  dbre  000
+  ddot  000
+  dcar  000
+  dogo  000
+  ddac  000

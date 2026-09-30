@@ -1,0 +1,28 @@
+# Maintainer: Dr. Marcus Roe <nobody@drm.cc>
+# HackHaste keyboard layout. Dr. Marcus Roe, https://drm.cc/ . MIT License.
+# Build from this directory (parent is the linux/ tree):
+#   makepkg -f -d
+pkgname=hackhaste
+pkgver=0.2
+pkgrel=1
+pkgdesc='ANSI keyboard layout with vowels UIAEO on the left home row, consonants HRSTNP on the right, digits 7-0 on the letter row, Caps Lock as Control, Left Ctrl as Caps Lock, and a Colemak-style AltGr/dead-key layer.'
+arch=('any')
+url='https://drm.cc/'
+license=('MIT')
+depends=('xkeyboard-config' 'python')
+optdepends=('kbd: Linux console maps')
+install=hackhaste.install
+
+package() {
+  local _linux
+  _linux="$(cd "${startdir}/.." && pwd)"
+  install -Dm644 "${_linux}/xkb/haha" \
+    "${pkgdir}/usr/share/X11/xkb/symbols/haha"
+  mkdir -p "${pkgdir}/usr/share/kbd/keymaps/i386/hackhaste"
+  install -m644 "${_linux}"/console/*.map "${_linux}"/console/*.map.gz \
+    "${pkgdir}/usr/share/kbd/keymaps/i386/hackhaste/"
+  install -Dm755 "${_linux}/register-hackhaste-xkb.py" \
+    "${pkgdir}/usr/share/hackhaste/register-hackhaste-xkb.py"
+  install -Dm644 "${_linux}/arch/LICENSE" \
+    "${pkgdir}/usr/share/licenses/hackhaste/LICENSE"
+}

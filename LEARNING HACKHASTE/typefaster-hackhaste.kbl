@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyboard>
+  <Name>HackHaste</Name>
+  <Key qwerty="`" unshifted="`" shifted="~"/>
+  <Key qwerty="1" unshifted="1" shifted="!"/>
+  <Key qwerty="2" unshifted="2" shifted="@"/>
+  <Key qwerty="3" unshifted="3" shifted="#"/>
+  <Key qwerty="4" unshifted="4" shifted="$"/>
+  <Key qwerty="5" unshifted="5" shifted="%"/>
+  <Key qwerty="6" unshifted="6" shifted="^"/>
+  <Key qwerty="7" unshifted="[" shifted="{"/>
+  <Key qwerty="8" unshifted="]" shifted="}"/>
+  <Key qwerty="9" unshifted="v" shifted="V"/>
+  <Key qwerty="0" unshifted="x" shifted="X"/>
+  <Key qwerty="-" unshifted="z" shifted="Z"/>
+  <Key qwerty="=" unshifted="q" shifted="Q"/>
+  <Key qwerty="q" unshifted="7" shifted="&amp;"/>
+  <Key qwerty="w" unshifted="8" shifted="*"/>
+  <Key qwerty="e" unshifted="9" shifted="("/>
+  <Key qwerty="r" unshifted="0" shifted=")"/>
+  <Key qwerty="t" unshifted="-" shifted="_"/>
+  <Key qwerty="y" unshifted="k" shifted="K"/>
+  <Key qwerty="u" unshifted="l" shifted="L"/>
+  <Key qwerty="i" unshifted="c" shifted="C"/>
+  <Key qwerty="o" unshifted="g" shifted="G"/>
+  <Key qwerty="p" unshifted="y" shifted="Y"/>
+  <Key qwerty="[" unshifted="w" shifted="W"/>
+  <Key qwerty="]" unshifted=";" shifted=":"/>
+  <Key qwerty="\" unshifted="\" shifted="|"/>
+  <Key qwerty="a" unshifted="u" shifted="U"/>
+  <Key qwerty="s" unshifted="i" shifted="I"/>
+  <Key qwerty="d" unshifted="a" shifted="A"/>
+  <Key qwerty="f" unshifted="e" shifted="E"/>
+  <Key qwerty="g" unshifted="o" shifted="O"/>
+  <Key qwerty="h" unshifted="h" shifted="H"/>
+  <Key qwerty="j" unshifted="r" shifted="R"/>
+  <Key qwerty="k" unshifted="s" shifted="S"/>
+  <Key qwerty="l" unshifted="t" shifted="T"/>
+  <Key qwerty=";" unshifted="n" shifted="N"/>
+  <Key qwerty="'" unshifted="p" shifted="P"/>
+  <Key qwerty="z" unshifted="'" shifted="""/>
+  <Key qwerty="x" unshifted="," shifted="&lt;"/>
+  <Key qwerty="c" unshifted="." shifted="&gt;"/>
+  <Key qwerty="v" unshifted="/" shifted="?"/>
+  <Key qwerty="b" unshifted="=" shifted="+"/>
+  <Key qwerty="n" unshifted="j" shifted="J"/>
+  <Key qwerty="m" unshifted="m" shifted="M"/>
+  <Key qwerty="," unshifted="d" shifted="D"/>
+  <Key qwerty="." unshifted="b" shifted="B"/>
+  <Key qwerty="/" unshifted="f" shifted="F"/>
+</Keyboard>

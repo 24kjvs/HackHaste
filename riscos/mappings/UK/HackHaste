@@ -1,0 +1,58 @@
+# HackHaste MoreKeys mapping for RISC OS
+# HackHaste keyboard layout. Dr. Marcus Roe, https://drm.cc/ . MIT License.
+# PC-keyboard internal numbers = IBM AT Set-1 scancodes.
+# columns: key  unshift  shift  ctrl  alt   (hex bytes, FF=none)
+# Drop in Choices:MoreKeys.mappings.UK.<name>  (see README-riscos.txt)
+
+29  60  7E  FF  00   # TLDE '`'
+02  31  21  FF  A1   # AE01 '1'
+03  32  40  FF  BA   # AE02 '2'
+04  33  23  FF  AA   # AE03 '3'
+05  34  24  FF  A2   # AE04 '4'
+06  35  25  FF  80   # AE05 '5'
+07  36  5E  FF  00   # AE06 '6'
+08  5B  7B  FF  AB   # AE07 '['
+09  5D  7D  FF  BB   # AE08 ']'
+0A  76  56  16  9C   # AE09 'v'
+0B  78  58  18  00   # AE10 'x'
+0C  7A  5A  1A  E6   # AE11 'z'
+0D  71  51  11  E4   # AE12 'q'
+10  37  26  FF  F0   # AD01 '7'
+11  38  2A  FF  FE   # AD02 '8'
+12  39  28  FF  91   # AD03 '9'
+13  30  29  FF  92   # AD04 '0'
+14  2D  5F  FF  96   # AD05 '-'
+15  6B  4B  0B  00   # AD06 'k'
+16  6C  4C  0C  00   # AD07 'l'
+17  63  43  03  E7   # AD08 'c'
+18  67  47  07  00   # AD09 'g'
+19  79  59  19  FC   # AD10 'y'
+1A  77  57  17  E5   # AD11 'w'
+1B  3B  3A  FF  F6   # AD12 ';'
+2B  5C  7C  FF  7E   # BKSL '\\'
+1E  75  55  15  FA   # AC01 'u'
+1F  69  49  09  ED   # AC02 'i'
+20  61  41  01  E1   # AC03 'a'
+21  65  45  05  E9   # AC04 'e'
+22  6F  4F  0F  F3   # AC05 'o'
+23  68  48  08  00   # AC06 'h'
+24  72  52  12  00   # AC07 'r'
+25  73  53  13  DF   # AC08 's'
+26  74  54  14  00   # AC09 't'
+27  6E  4E  0E  F1   # AC10 'n'
+28  70  50  10  F8   # AC11 'p'
+2C  27  22  FF  F5   # AB01 "'"
+2D  2C  3C  FF  00   # AB02 ','
+2E  2E  3E  FF  00   # AB03 '.'
+2F  2F  3F  FF  BF   # AB04 '/'
+30  3D  2B  FF  D7   # AB05 '='
+31  6A  4A  0A  00   # AB06 'j'
+32  6D  4D  0D  00   # AB07 'm'
+33  64  44  04  00   # AB08 'd'
+34  62  42  02  00   # AB09 'b'
+35  66  46  06  E3   # AB10 'f'
+56  2D  5F  FF  96   # LSGT '-'
+39  20  20  FF  20   # SPCE ' '
+
+# Caps 3A / Ctrl 1D stay InternationalKeyboard modifiers.
+# MoreKeys remaps characters; *Configure CapsAction if your RO build has it.

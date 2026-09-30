@@ -1,0 +1,7 @@
+# HackHaste keyboard layout. Dr. Marcus Roe, https://drm.cc/ . MIT License.
+# Append to /usr/share/lib/keytables/type_6/kbd_layouts
+# (keep that file alphabetically sorted if you care about kbd -s order).
+HackHaste=400
+HackHaste-Left=401
+HackHaste-Left-ShiftLock=403
+HackHaste-ShiftLock=402

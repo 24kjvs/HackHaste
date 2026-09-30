@@ -1,0 +1,6 @@
+# HackHaste keyboard layout. Dr. Marcus Roe, https://drm.cc/ . MIT License.
+# HackHaste 30/32/39-key BlackBerry brick fold
+# vowels on the left of the brick, RSTN on the right; rares on Alt/SYM.
+
+home_fold u i a e o h r s t n p
+qwerty_row u i a e o   h r s t n p

@@ -1,0 +1,53 @@
+! HackHaste keyboard layout. Dr. Marcus Roe, https://drm.cc/ . MIT License.
+! HackHaste LK-style / DECwindows XKB fragment
+! Copy into SYS$COMMON:[SYS$KEYMAP.XKB.SYMBOLS] or use linux/xkb via X.
+
+  key <TLDE> { [ `, ~ ] };
+  key <AE01> { [ 1, ! ] };
+  key <AE02> { [ 2, @ ] };
+  key <AE03> { [ 3, # ] };
+  key <AE04> { [ 4, $ ] };
+  key <AE05> { [ 5, % ] };
+  key <AE06> { [ 6, ^ ] };
+  key <AE07> { [ [, { ] };
+  key <AE08> { [ ], } ] };
+  key <AE09> { [ v, V ] };
+  key <AE10> { [ x, X ] };
+  key <AE11> { [ z, Z ] };
+  key <AE12> { [ q, Q ] };
+  key <AD01> { [ 7, & ] };
+  key <AD02> { [ 8, * ] };
+  key <AD03> { [ 9, ( ] };
+  key <AD04> { [ 0, ) ] };
+  key <AD05> { [ -, _ ] };
+  key <AD06> { [ k, K ] };
+  key <AD07> { [ l, L ] };
+  key <AD08> { [ c, C ] };
+  key <AD09> { [ g, G ] };
+  key <AD10> { [ y, Y ] };
+  key <AD11> { [ w, W ] };
+  key <AD12> { [ ;, : ] };
+  key <BKSL> { [ \, | ] };
+  key <AC01> { [ u, U ] };
+  key <AC02> { [ i, I ] };
+  key <AC03> { [ a, A ] };
+  key <AC04> { [ e, E ] };
+  key <AC05> { [ o, O ] };
+  key <AC06> { [ h, H ] };
+  key <AC07> { [ r, R ] };
+  key <AC08> { [ s, S ] };
+  key <AC09> { [ t, T ] };
+  key <AC10> { [ n, N ] };
+  key <AC11> { [ p, P ] };
+  key <AB01> { [ ', " ] };
+  key <AB02> { [ ,, < ] };
+  key <AB03> { [ ., > ] };
+  key <AB04> { [ /, ? ] };
+  key <AB05> { [ =, + ] };
+  key <AB06> { [ j, J ] };
+  key <AB07> { [ m, M ] };
+  key <AB08> { [ d, D ] };
+  key <AB09> { [ b, B ] };
+  key <AB10> { [ f, F ] };
+  key <LSGT> { [ -, _ ] };
+  key <SPCE> { [  ,   ] };

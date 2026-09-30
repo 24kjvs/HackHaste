@@ -1,0 +1,30 @@
+# HackHaste keyboard layout. Dr. Marcus Roe, https://drm.cc/ . MIT License.
+# AIX keycomp source. Incoming keysyms are QWERTY; output is HackHaste.
+# Prefer linux/xkb on AIXwindows. This file is for SIM / keycomp.
+
+XK_q '7' XK_& XK_& XK_7
+XK_w '8' XK_* XK_* XK_8
+XK_e '9' XK_( XK_( XK_9
+XK_r '0' XK_) XK_) XK_0
+XK_t '-' XK__ XK__ XK_-
+XK_y 'k' XK_K XK_K XK_k
+XK_u 'l' XK_L XK_L XK_l
+XK_i 'c' XK_C XK_C XK_c
+XK_o 'g' XK_G XK_G XK_g
+XK_p 'y' XK_Y XK_Y XK_y
+XK_a 'u' XK_U XK_U XK_u
+XK_s 'i' XK_I XK_I XK_i
+XK_d 'a' XK_A XK_A XK_a
+XK_f 'e' XK_E XK_E XK_e
+XK_g 'o' XK_O XK_O XK_o
+XK_h 'h' XK_H XK_H XK_h
+XK_j 'r' XK_R XK_R XK_r
+XK_k 's' XK_S XK_S XK_s
+XK_l 't' XK_T XK_T XK_t
+XK_z ''' XK_" XK_" XK_'
+XK_x ',' XK_< XK_< XK_,
+XK_c '.' XK_> XK_> XK_.
+XK_v '/' XK_? XK_? XK_/
+XK_b '=' XK_+ XK_+ XK_=
+XK_n 'j' XK_J XK_J XK_j
+XK_m 'm' XK_M XK_M XK_m

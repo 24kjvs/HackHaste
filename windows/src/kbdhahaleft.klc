@@ -1,0 +1,225 @@
+KBD	kbdhahaleft	"HackHaste Left"
+
+COPYRIGHT	"HackHaste keyboard layout. Dr. Marcus Roe, https://drm.cc/ . MIT License."
+
+COMPANY	"Dr. Marcus Roe"
+
+LOCALENAME	"en-US"
+
+LOCALEID	"00000409"
+
+VERSION	1.0
+
+SHIFTSTATE
+
+0	// Column 4
+1	// Column 5 : Shft
+2	// Column 6 :       Ctrl
+6	// Column 7 :       Ctrl Alt
+7	// Column 8 : Shft  Ctrl Alt
+
+LAYOUT		;an extra '@' at the end is a dead key
+
+//SC	VK_		Cap	0	1	2	6	7
+//--	----		----	----	----	----	----	----
+
+3A	LCONTROL	0	-1	-1	-1	-1	-1	// Caps Lock → Control
+1D	CAPITAL	0	-1	-1	-1	-1	-1	// Left Ctrl → Caps Lock
+29	OEM_3		0	`	~	-1	0303@	~
+02	X		1	x	X	-1	0302@	~
+03	V		1	v	V	-1	0153	0152
+04	Z		1	z	Z	-1	00e6	00c6
+05	Q		1	q	Q	-1	00e4	00c4
+06	W		1	w	W	-1	00e5	00c5
+07	OEM_1		0	;	:	-1	00f6	00d6
+08	1		0	1	!	-1	00a1	00b9
+09	2		0	2	@	-1	00ba	00b2
+0A	3		0	3	#	-1	00aa	00b3
+0B	4		0	4	$	-1	00a2	00a3
+0C	5		0	5	%	-1	20ac	00a5
+0D	6		0	6	^	-1	0127	0126
+10	P		1	p	P	-1	00f8	00d8
+11	G		1	g	G	-1	0328@	~
+12	C		1	c	C	-1	00e7	00c7
+13	L		1	l	L	-1	0142	0141
+14	K		1	k	K	-1	030a@	~
+15	OEM_MINUS		0	-	_	-1	2013	2014
+16	7		0	7	&	-1	00f0	00d0
+17	8		0	8	*	-1	00fe	00de
+18	9		0	9	(	-1	2018	201c
+19	0		0	0	)	-1	2019	201d
+1A	OEM_4		0	[	{	-1	00ab	2039
+1B	OEM_6		0	]	}	-1	00bb	203a
+2B	OEM_5		0	\	|	-1	~	~
+1E	N		1	n	N	-1	00f1	00d1
+1F	T		1	t	T	-1	0301@	030b@
+20	S		1	s	S	-1	00df	~
+21	R		1	r	R	-1	0300@	~
+22	H		1	h	H	-1	030c@	~
+23	O		1	o	O	-1	00f3	00d3
+24	E		1	e	E	-1	00e9	00c9
+25	A		1	a	A	-1	00e1	00c1
+26	I		1	i	I	-1	00ed	00cd
+27	U		1	u	U	-1	00fa	00da
+28	Y		1	y	Y	-1	00fc	00dc
+2C	F		1	f	F	-1	00e3	00c3
+2D	B		1	b	B	-1	0306@	~
+2E	D		1	d	D	-1	0308@	~
+2F	M		1	m	M	-1	0304@	~
+30	J		1	j	J	-1	0111	0110
+31	OEM_PLUS		0	=	+	-1	00d7	00f7
+32	OEM_7		0	'	"	-1	00f5	00d5
+33	OEM_COMMA		0	,	<	-1	0327@	~
+34	OEM_PERIOD		0	.	>	-1	0307@	~
+35	OEM_2		0	/	?	-1	00bf	~
+56	OEM_102		0	-	_	-1	2013	2014
+39	SPACE		0	 	 	-1	 	00a0
+
+DEADKEY	0300
+
+0061	00e0	0061	// a -> à
+0065	00e8	0065	// e -> è
+0069	00ec	0069	// i -> ì
+006f	00f2	006f	// o -> ò
+0075	00f9	0075	// u -> ù
+0041	00c0	0041	// A -> À
+0045	00c8	0045	// E -> È
+0049	00cc	0049	// I -> Ì
+004f	00d2	004f	// O -> Ò
+0055	00d9	0055	// U -> Ù
+
+DEADKEY	0301
+
+0061	00e1	0061	// a -> á
+0065	00e9	0065	// e -> é
+0069	00ed	0069	// i -> í
+006f	00f3	006f	// o -> ó
+0075	00fa	0075	// u -> ú
+0079	00fd	0079	// y -> ý
+0041	00c1	0041	// A -> Á
+0045	00c9	0045	// E -> É
+0049	00cd	0049	// I -> Í
+004f	00d3	004f	// O -> Ó
+0055	00da	0055	// U -> Ú
+0059	00dd	0059	// Y -> Ý
+
+DEADKEY	0302
+
+0061	00e2	0061	// a -> â
+0065	00ea	0065	// e -> ê
+0069	00ee	0069	// i -> î
+006f	00f4	006f	// o -> ô
+0075	00fb	0075	// u -> û
+0041	00c2	0041	// A -> Â
+0045	00ca	0045	// E -> Ê
+0049	00ce	0049	// I -> Î
+004f	00d4	004f	// O -> Ô
+0055	00db	0055	// U -> Û
+
+DEADKEY	0303
+
+0061	00e3	0061	// a -> ã
+006f	00f5	006f	// o -> õ
+006e	00f1	006e	// n -> ñ
+0041	00c3	0041	// A -> Ã
+004f	00d5	004f	// O -> Õ
+004e	00d1	004e	// N -> Ñ
+
+DEADKEY	0308
+
+0061	00e4	0061	// a -> ä
+0065	00eb	0065	// e -> ë
+0069	00ef	0069	// i -> ï
+006f	00f6	006f	// o -> ö
+0075	00fc	0075	// u -> ü
+0079	00ff	0079	// y -> ÿ
+0041	00c4	0041	// A -> Ä
+0045	00cb	0045	// E -> Ë
+0049	00cf	0049	// I -> Ï
+004f	00d6	004f	// O -> Ö
+0055	00dc	0055	// U -> Ü
+
+DEADKEY	030a
+
+0061	00e5	0061	// a -> å
+0041	00c5	0041	// A -> Å
+
+DEADKEY	0327
+
+0063	00e7	0063	// c -> ç
+0043	00c7	0043	// C -> Ç
+
+DEADKEY	0304
+
+0061	0101	0061	// a -> ā
+0065	0113	0065	// e -> ē
+0069	012b	0069	// i -> ī
+006f	014d	006f	// o -> ō
+0075	016b	0075	// u -> ū
+
+DEADKEY	0306
+
+0061	0103	0061	// a -> ă
+0041	0102	0041	// A -> Ă
+
+DEADKEY	0307
+
+007a	017c	007a	// z -> ż
+005a	017b	005a	// Z -> Ż
+
+DEADKEY	030c
+
+0063	010d	0063	// c -> č
+0073	0161	0073	// s -> š
+007a	017e	007a	// z -> ž
+0043	010c	0043	// C -> Č
+0053	0160	0053	// S -> Š
+005a	017d	005a	// Z -> Ž
+
+DEADKEY	0328
+
+0061	0105	0061	// a -> ą
+0065	0119	0065	// e -> ę
+0041	0104	0041	// A -> Ą
+0045	0118	0045	// E -> Ę
+
+DEADKEY	030b
+
+006f	0151	006f	// o -> ő
+0075	0171	0075	// u -> ű
+004f	0150	004f	// O -> Ő
+0055	0170	0055	// U -> Ű
+
+KEYNAME
+
+01	Esc
+0e	Backspace
+0f	Tab
+1c	Enter
+1d	Ctrl
+2a	Shift
+36	"Right Shift"
+3a	"Caps Lock"
+
+KEYNAME_EXT
+
+1d	"Right Ctrl"
+38	"Right Alt"
+
+KEYNAME_DEAD
+
+0300	"GRAVE"
+0301	"ACUTE"
+0302	"CIRCUMFLEX"
+0303	"TILDE"
+0308	"DIAERESIS"
+
+DESCRIPTIONS
+
+0409	HackHaste Left
+
+LANGUAGENAMES
+
+0409	English (United States)
+
+ENDKBD

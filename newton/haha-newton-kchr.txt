@@ -1,0 +1,53 @@
+# HackHaste keyboard layout. Dr. Marcus Roe, https://drm.cc/ . MIT License.
+# HackHaste Newton PREF 128 / KCHR layout (Mac-like).
+# A loadable .pkg needs Newton Toolkit. This is the resource map.
+
+TLDE  `  ~
+AE01  1  !
+AE02  2  @
+AE03  3  #
+AE04  4  $
+AE05  5  %
+AE06  6  ^
+AE07  [  {
+AE08  ]  }
+AE09  v  V
+AE10  x  X
+AE11  z  Z
+AE12  q  Q
+AD01  7  &
+AD02  8  *
+AD03  9  (
+AD04  0  )
+AD05  -  _
+AD06  k  K
+AD07  l  L
+AD08  c  C
+AD09  g  G
+AD10  y  Y
+AD11  w  W
+AD12  ;  :
+BKSL  \  |
+AC01  u  U
+AC02  i  I
+AC03  a  A
+AC04  e  E
+AC05  o  O
+AC06  h  H
+AC07  r  R
+AC08  s  S
+AC09  t  T
+AC10  n  N
+AC11  p  P
+AB01  '  "
+AB02  ,  <
+AB03  .  >
+AB04  /  ?
+AB05  =  +
+AB06  j  J
+AB07  m  M
+AB08  d  D
+AB09  b  B
+AB10  f  F
+LSGT  -  _
+SPCE      

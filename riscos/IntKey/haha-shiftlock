@@ -1,0 +1,55 @@
+; HackHaste Shift Lock IntKey layout fragment
+; HackHaste keyboard layout. Dr. Marcus Roe, https://drm.cc/ . MIT License.
+; Drop into Internat/IntKey/layout and rebuild InternationalKeyboard
+; (RISC OS Open). This is a comment-form table, not a loadable module.
+; Layout "HackHaste Shift Lock"
+
+; Key &29  unshift '`'  shift '~'  ; TLDE
+; Key &02  unshift '1'  shift '!'  ; AE01
+; Key &03  unshift '2'  shift '@'  ; AE02
+; Key &04  unshift '3'  shift '#'  ; AE03
+; Key &05  unshift '4'  shift '$'  ; AE04
+; Key &06  unshift '5'  shift '%'  ; AE05
+; Key &07  unshift '6'  shift '^'  ; AE06
+; Key &08  unshift '['  shift '{'  ; AE07
+; Key &09  unshift ']'  shift '}'  ; AE08
+; Key &0A  unshift 'v'  shift 'V'  ; AE09
+; Key &0B  unshift 'x'  shift 'X'  ; AE10
+; Key &0C  unshift 'z'  shift 'Z'  ; AE11
+; Key &0D  unshift 'q'  shift 'Q'  ; AE12
+; Key &10  unshift '7'  shift '&'  ; AD01
+; Key &11  unshift '8'  shift '*'  ; AD02
+; Key &12  unshift '9'  shift '('  ; AD03
+; Key &13  unshift '0'  shift ')'  ; AD04
+; Key &14  unshift '-'  shift '_'  ; AD05
+; Key &15  unshift 'k'  shift 'K'  ; AD06
+; Key &16  unshift 'l'  shift 'L'  ; AD07
+; Key &17  unshift 'c'  shift 'C'  ; AD08
+; Key &18  unshift 'g'  shift 'G'  ; AD09
+; Key &19  unshift 'y'  shift 'Y'  ; AD10
+; Key &1A  unshift 'w'  shift 'W'  ; AD11
+; Key &1B  unshift ';'  shift ':'  ; AD12
+; Key &2B  unshift '\\'  shift '|'  ; BKSL
+; Key &1E  unshift 'u'  shift 'U'  ; AC01
+; Key &1F  unshift 'i'  shift 'I'  ; AC02
+; Key &20  unshift 'a'  shift 'A'  ; AC03
+; Key &21  unshift 'e'  shift 'E'  ; AC04
+; Key &22  unshift 'o'  shift 'O'  ; AC05
+; Key &23  unshift 'h'  shift 'H'  ; AC06
+; Key &24  unshift 'r'  shift 'R'  ; AC07
+; Key &25  unshift 's'  shift 'S'  ; AC08
+; Key &26  unshift 't'  shift 'T'  ; AC09
+; Key &27  unshift 'n'  shift 'N'  ; AC10
+; Key &28  unshift 'p'  shift 'P'  ; AC11
+; Key &2C  unshift "'"  shift '"'  ; AB01
+; Key &2D  unshift ','  shift '<'  ; AB02
+; Key &2E  unshift '.'  shift '>'  ; AB03
+; Key &2F  unshift '/'  shift '?'  ; AB04
+; Key &30  unshift '='  shift '+'  ; AB05
+; Key &31  unshift 'j'  shift 'J'  ; AB06
+; Key &32  unshift 'm'  shift 'M'  ; AB07
+; Key &33  unshift 'd'  shift 'D'  ; AB08
+; Key &34  unshift 'b'  shift 'B'  ; AB09
+; Key &35  unshift 'f'  shift 'F'  ; AB10
+; Key &56  unshift '-'  shift '_'  ; LSGT
+; Key &39  unshift ' '  shift ' '  ; SPCE

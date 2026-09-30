@@ -1,0 +1,11 @@
+REGEDIT4
+; HackHaste keyboard layout. Dr. Marcus Roe, https://drm.cc/ . MIT License.
+; Windows CE 4/5/6 and Embedded Compact. Import with the device registry
+; editor, or merge into the Platform Builder .reg for the image.
+
+[HKEY_LOCAL_MACHINE\HARDWARE\DEVICEMAP\KEYBD]
+"InputLanguage"="a1b00409"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Layouts\a1b00409]
+"Layout File"="kbdhaha.dll"
+"Layout Text"="HackHaste"

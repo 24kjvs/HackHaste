@@ -1,0 +1,21 @@
+REGEDIT4
+
+; HackHaste keyboard layout. Dr. Marcus Roe, https://drm.cc/ . MIT License.
+; Merge on Windows 95 / 98 / Me after copying the .KBD files to %windir%\SYSTEM.
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Keyboard Layouts\00010409]
+"layout file"="kbdhaha.kbd"
+"layout text"="HackHaste"
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Keyboard Layouts\00020409]
+"layout file"="kbdhahl.kbd"
+"layout text"="HackHaste Left"
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Keyboard Layouts\00030409]
+"layout file"="kbdhhas.kbd"
+"layout text"="HackHaste Shift Lock"
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Keyboard Layouts\00040409]
+"layout file"="kbdhhls.kbd"
+"layout text"="HackHaste Left Shift Lock"
+

@@ -1,0 +1,53 @@
+# HackHaste keyboard layout. Dr. Marcus Roe, https://drm.cc/ . MIT License.
+# SCO OpenServer / UnixWare mapkey fragment. Copy toward /usr/lib/keyboard/keys
+# then: mapkey keys.haha
+
+0x29  '`' '~' nop nop nop nop nop nop O
+0x02  '1' '!' nop nop nop nop nop nop O
+0x03  '2' '@' nop nop nop nop nop nop O
+0x04  '3' '#' nop nop nop nop nop nop O
+0x05  '4' '$' nop nop nop nop nop nop O
+0x06  '5' '%' nop nop nop nop nop nop O
+0x07  '6' '^' nop nop nop nop nop nop O
+0x08  '[' '{' nop nop nop nop nop nop O
+0x09  ']' '}' nop nop nop nop nop nop O
+0x0a  'v' 'V' nop nop nop nop nop nop C
+0x0b  'x' 'X' nop nop nop nop nop nop C
+0x0c  'z' 'Z' nop nop nop nop nop nop C
+0x0d  'q' 'Q' nop nop nop nop nop nop C
+0x10  '7' '&' nop nop nop nop nop nop O
+0x11  '8' '*' nop nop nop nop nop nop O
+0x12  '9' '(' nop nop nop nop nop nop O
+0x13  '0' ')' nop nop nop nop nop nop O
+0x14  '-' '_' nop nop nop nop nop nop O
+0x15  'k' 'K' nop nop nop nop nop nop C
+0x16  'l' 'L' nop nop nop nop nop nop C
+0x17  'c' 'C' nop nop nop nop nop nop C
+0x18  'g' 'G' nop nop nop nop nop nop C
+0x19  'y' 'Y' nop nop nop nop nop nop C
+0x1a  'w' 'W' nop nop nop nop nop nop C
+0x1b  ';' ':' nop nop nop nop nop nop O
+0x2b  '\' '|' nop nop nop nop nop nop O
+0x1e  'u' 'U' nop nop nop nop nop nop C
+0x1f  'i' 'I' nop nop nop nop nop nop C
+0x20  'a' 'A' nop nop nop nop nop nop C
+0x21  'e' 'E' nop nop nop nop nop nop C
+0x22  'o' 'O' nop nop nop nop nop nop C
+0x23  'h' 'H' nop nop nop nop nop nop C
+0x24  'r' 'R' nop nop nop nop nop nop C
+0x25  's' 'S' nop nop nop nop nop nop C
+0x26  't' 'T' nop nop nop nop nop nop C
+0x27  'n' 'N' nop nop nop nop nop nop C
+0x28  'p' 'P' nop nop nop nop nop nop C
+0x2c  ''' '"' nop nop nop nop nop nop O
+0x2d  ',' '<' nop nop nop nop nop nop O
+0x2e  '.' '>' nop nop nop nop nop nop O
+0x2f  '/' '?' nop nop nop nop nop nop O
+0x30  '=' '+' nop nop nop nop nop nop O
+0x31  'j' 'J' nop nop nop nop nop nop C
+0x32  'm' 'M' nop nop nop nop nop nop C
+0x33  'd' 'D' nop nop nop nop nop nop C
+0x34  'b' 'B' nop nop nop nop nop nop C
+0x35  'f' 'F' nop nop nop nop nop nop C
+0x56  '-' '_' nop nop nop nop nop nop O
+0x39  ' ' ' ' nop nop nop nop nop nop O

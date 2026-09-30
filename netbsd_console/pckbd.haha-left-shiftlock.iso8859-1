@@ -1,0 +1,57 @@
+# HackHaste Left Shift Lock keymap for NetBSD console.
+# HackHaste keyboard layout. Dr. Marcus Roe, https://drm.cc/ . MIT License.
+# copy to /usr/share/wscons/keymaps/pckbd.haha-left-shiftlock.iso8859-1
+# modify the mapfile setting in /etc/wscons.conf
+
+keycode  41 =            grave       asciitilde       dead_tilde       asciitilde
+keycode   2 =                x                X  dead_circumflex       asciitilde
+keycode   3 =                v                V               oe               OE
+keycode   4 =                z                Z               ae               AE
+keycode   5 =                q                Q       adiaeresis       Adiaeresis
+keycode   6 =                w                W            aring            Aring
+keycode   7 =        semicolon            colon       odiaeresis       Odiaeresis
+keycode   8 =              one           exclam       exclamdown      onesuperior
+keycode   9 =              two               at        masculine      twosuperior
+keycode  10 =            three       numbersign      ordfeminine    threesuperior
+keycode  11 =             four           dollar             cent         sterling
+keycode  12 =             five          percent             euro              yen
+keycode  13 =              six      asciicircum          hstroke          Hstroke
+keycode  16 =                p                P           oslash         Ooblique
+keycode  17 =                g                G      dead_ogonek       asciitilde
+keycode  18 =                c                C         ccedilla         Ccedilla
+keycode  19 =                l                L          lstroke          Lstroke
+keycode  20 =                k                K   dead_abovering       asciitilde
+keycode  21 =            minus       underscore           endash           emdash
+keycode  22 =            seven        ampersand              eth              ETH
+keycode  23 =            eight         asterisk            thorn            THORN
+keycode  24 =             nine        parenleft           U+2018           U+201C
+keycode  25 =             zero       parenright           U+2019           U+201D
+keycode  26 =      bracketleft        braceleft    guillemotleft       asciitilde
+keycode  27 =     bracketright       braceright   guillemotright       asciitilde
+keycode  43 =        backslash              bar       asciitilde       asciitilde
+keycode  30 =                n                N           ntilde           Ntilde
+keycode  31 =                t                T       dead_acute dead_doubleacute
+keycode  32 =                s                S           ssharp       asciitilde
+keycode  33 =                r                R       dead_grave       asciitilde
+keycode  34 =                h                H       dead_caron       asciitilde
+keycode  35 =                o                O           oacute           Oacute
+keycode  36 =                e                E           eacute           Eacute
+keycode  37 =                a                A           aacute           Aacute
+keycode  38 =                i                I           iacute           Iacute
+keycode  39 =                u                U           uacute           Uacute
+keycode  40 =                y                Y       udiaeresis       Udiaeresis
+keycode  44 =                f                F           atilde           Atilde
+keycode  45 =                b                B       dead_breve       asciitilde
+keycode  46 =                d                D   dead_diaeresis       asciitilde
+keycode  47 =                m                M      dead_macron       asciitilde
+keycode  48 =                j                J          dstroke          Dstroke
+keycode  49 =            equal             plus         multiply         division
+keycode  50 =       apostrophe         quotedbl           otilde           Otilde
+keycode  51 =            comma             less     dead_cedilla       asciitilde
+keycode  52 =           period          greater    dead_abovedot       asciitilde
+keycode  53 =            slash         question     questiondown       asciitilde
+keycode  86 =            minus       underscore           endash           emdash
+keycode  57 =            space            space            space     nobreakspace
+keycode  58 =        Control       Control          Control           Control
+keycode 184 =    Mode_switch   Mode_switch
+keycode  29 =    Shift_Lock     Shift_Lock

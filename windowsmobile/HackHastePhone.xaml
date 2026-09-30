@@ -1,0 +1,4 @@
+<!-- In-app XAML only. Windows Phone 7/8/8.1 cannot replace the OS SIP. -->
+<Grid xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+  <TextBlock Text="HackHaste in-app keyboard: paste keys from haha-sip.c into Button Content."/>
+</Grid>

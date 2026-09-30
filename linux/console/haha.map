@@ -1,0 +1,73 @@
+# haha.map for Linux console.
+# HackHaste keyboard layout. Dr. Marcus Roe, https://drm.cc/ . MIT License.
+# Version 0.2. HackHaste.
+# loadkeys haha.map     (as root, or localectl)
+# More info: https://wiki.archlinux.org/title/Linux_console/Keyboard_configuration
+# Physical Left Ctrl (keycode 29) is Caps_Lock (letters). Caps key is Control.
+alt_is_meta
+charset "iso-8859-15"
+keymaps 0-12
+include "qwerty-layout"
+include "linux-with-alt-and-altgr"
+strings as usual
+
+keycode  41 =            grave       asciitilde       dead_tilde       asciitilde
+keycode   2 =              one           exclam       exclamdown      onesuperior
+keycode   3 =              two               at        masculine      twosuperior
+keycode   4 =            three       numbersign      ordfeminine    threesuperior
+keycode   5 =             four           dollar             cent         sterling
+keycode   6 =             five          percent             euro              yen
+keycode   7 =              six      asciicircum          hstroke          Hstroke
+keycode   8 =      bracketleft        braceleft    guillemotleft       asciitilde
+keycode   9 =     bracketright       braceright   guillemotright       asciitilde
+keycode  10 =                v                V               oe               OE    Control_v
+keycode  11 =                x                X  dead_circumflex       asciitilde    Control_x
+keycode  12 =                z                Z               ae               AE    Control_z
+keycode  13 =                q                Q       adiaeresis       Adiaeresis    Control_q
+keycode  16 =            seven        ampersand              eth              ETH
+keycode  17 =            eight         asterisk            thorn            THORN
+keycode  18 =             nine        parenleft           U+2018           U+201C
+keycode  19 =             zero       parenright           U+2019           U+201D
+keycode  20 =            minus       underscore           endash           emdash
+keycode  21 =                k                K   dead_abovering       asciitilde    Control_k
+keycode  22 =                l                L          lstroke          Lstroke    Control_l
+keycode  23 =                c                C         ccedilla         Ccedilla    Control_c
+keycode  24 =                g                G      dead_ogonek       asciitilde    Control_g
+keycode  25 =                y                Y       udiaeresis       Udiaeresis    Control_y
+keycode  26 =                w                W            aring            Aring    Control_w
+keycode  27 =        semicolon            colon       odiaeresis       Odiaeresis
+keycode  43 =        backslash              bar       asciitilde       asciitilde
+keycode  30 =                u                U           uacute           Uacute    Control_u
+keycode  31 =                i                I           iacute           Iacute    Control_i
+keycode  32 =                a                A           aacute           Aacute    Control_a
+keycode  33 =                e                E           eacute           Eacute    Control_e
+keycode  34 =                o                O           oacute           Oacute    Control_o
+keycode  35 =                h                H       dead_caron       asciitilde    Control_h
+keycode  36 =                r                R       dead_grave       asciitilde    Control_r
+keycode  37 =                s                S           ssharp       asciitilde    Control_s
+keycode  38 =                t                T       dead_acute dead_doubleacute    Control_t
+keycode  39 =                n                N           ntilde           Ntilde    Control_n
+keycode  40 =                p                P           oslash         Ooblique    Control_p
+keycode  44 =       apostrophe         quotedbl           otilde           Otilde
+keycode  45 =            comma             less     dead_cedilla       asciitilde
+keycode  46 =           period          greater    dead_abovedot       asciitilde
+keycode  47 =            slash         question     questiondown       asciitilde
+keycode  48 =            equal             plus         multiply         division
+keycode  49 =                j                J          dstroke          Dstroke    Control_j
+keycode  50 =                m                M      dead_macron       asciitilde    Control_m
+keycode  51 =                d                D   dead_diaeresis       asciitilde    Control_d
+keycode  52 =                b                B       dead_breve       asciitilde    Control_b
+keycode  53 =                f                F           atilde           Atilde    Control_f
+keycode  86 =            minus       underscore           endash           emdash
+keycode  57 =            space            space            space     nobreakspace
+
+keycode  58 =        Control       Control          Control           Control
+keycode   1 = Escape
+keycode  14 = Delete
+keycode  15 = Tab
+keycode  28 = Return
+keycode  29 = Caps_Lock
+keycode  42 = Shift
+keycode  54 = Shift
+keycode  56 = Alt
+keycode  97 = Control

@@ -1,0 +1,9 @@
+HackHaste Left Apple II layout card (40 column)
+HackHaste keyboard layout. Dr. Marcus Roe, https://drm.cc/ . MIT License.
+ASCII remap only. No AltGr, no Caps-as-Open-Apple (hardware Caps).
+CALL 768 after BRUN HAHA.BIN (ProDOS BASIC.SYSTEM).
+
+ ` X V Z Q W ; 1 2 3 4 5 6
+  P G C L K - 7 8 9 0 [ ]
+   N T S R H O E A I U Y
+    F B D M J = ' , . /

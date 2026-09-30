@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<course>
+  <id>{a1b00409-2026-4002-8000-000000000012}</id>
+  <title>HackHaste Left</title>
+  <description>HackHaste Left finger course. Chants in MNEMONICS.md.</description>
+  <keyboardLayout>haha-left</keyboardLayout>
+  <lessons>
+    <lesson>
+      <id>{a1b00409-2026-4002-8000-00000000101}</id>
+      <title>Engine home</title>
+      <newCharacters>ntsrh</newCharacters>
+      <text>n n n n n n n n t t t t t t t t s s s s s s s s r r r r r r
+r r h h h h h h h h nt ts sr rh h r s t n n t s r h n t s r
+h n t s r h n t s r h n t s r h n t s r h n t s r h n t s r
+h n t s r h n t s r h n t s r h n t s r h n t s r h n t s r
+h n t s r h n t s r h n s t r h r h s t n h n r s t r s t h
+n r s n t h n s t r h h r t s n t r h s n t s h n r s h t n
+r t s h r n n r t h s n s r h t n t r h s n h s r t h n t r
+s r h n t s r h t n s h r s n t t r h s n h r t s n s t r n
+h n s t r h n s r t h s t h n r s t r h n s t n h r s r t h
+n t n s r h r n t s h s r t n h r s h n t n h t r s s r t h
+n r t h s n h n r t s</text>
+    </lesson>
+    <lesson>
+      <id>{a1b00409-2026-4002-8000-00000000102}</id>
+      <title>Choir home</title>
+      <newCharacters>oeaiuy</newCharacters>
+      <text>o o o o o o o o e e e e e e e e a a a a a a a a i i i i i i
+i i u u u u u u u u y y y y y y y y oe ea ai iu uy y u i a e
+o us hot not sun tree sense rain those run either yes so
+your art sat in eye area the an near train these or our air
+sit sit ran at hair a turn into there rest earth short hat
+sea this nation their iron soon his seen as out other unit
+no street are too horse that you year stay start see son
+then here thin east test set noun history tiny south yet
+hours southern root oh he house state she north stone true
+ten to heart sure stars try store her on reason it than note
+rather use hear eat thus say one has any story tone rise
+return ears heat hit interest another is they easy sent</text>
+    </lesson>
+    <lesson>
+      <id>{a1b00409-2026-4002-8000-00000000103}</id>
+      <title>Ctrl pack and attic</title>
+      <newCharacters>xvzqw</newCharacters>
+      <text>x x x x x x x x v v v v v v v v z z z z z z z z q q q q q q
+q q w w w w w w w w xv vz zq qw w q z v x yes how oh wear
+has sun quiet into why it written street here i state heat
+one hit another rather where serve tree square answer see
+however everyone return next too wrote war row our heart
+visit unit away every was earth even air you stay near story
+write hot his with way start saw own that hair out son seven
+art note six sat weather iron southern hours ran reason show
+wash store to area test short in we hat the then sit sit
+went history ten any not thus yet what their now have are
+want train your these set river new there eye without quite
+nation or north waves whose tiny sent stars two try soon</text>
+    </lesson>
+    <lesson>
+      <id>{a1b00409-2026-4002-8000-00000000104}</id>
+      <title>Downstairs clusters</title>
+      <newCharacters>fbdmj</newCharacters>
+      <text>f f f f f f f f b b b b b b b b d d d d d d d d m m m m m m
+m m j j j j j j j j fb bd dm mj j m d b f dry board quiet
+hat these base tree inside business return stars farmers
+understand was remain fish questions said be day i everyone
+noun sand when same within time to next bad wear home verb
+street soon way heat never us martin three boy stood number
+nation after white weather observe waves method divided fair
+wood army main had at wish tone months then six just of than
+thin four few been eye bed behind sometimes red from you
+form famous with members moment thousands job son wonder
+save history meet mother true seen serve state that safe our
+today round born friends swim visit man as summer out foot</text>
+    </lesson>
+    <lesson>
+      <id>{a1b00409-2026-4002-8000-00000000105}</id>
+      <title>Letter-row digits</title>
+      <newCharacters>7890</newCharacters>
+      <text>7 7 7 7 7 7 7 7 8 8 8 8 8 8 8 8 9 9 9 9 9 9 9 9 0 0 0 0 0 0
+0 0 78 89 90 0 9 8 7 joined your bones one and sense reason
+what sure this air friends use over off hours hear outside
+four terms root next want serve wonder find am business stay
+same wire everyone iron wait warm forest swim feet them me
+say or most six nation row moon time read southern bear too
+stood heat do summer street wind to students hot form new
+road never his however on heart questions noun hair observe
+base for sand town these hat food equation have desert first
+sometimes seen radio how army snow sea write did is many own
+buy so around water bit sound system just someone indian
+entered been ahead move information martin brother at</text>
+    </lesson>
+    <lesson>
+      <id>{a1b00409-2026-4002-8000-00000000106}</id>
+      <title>Number-row rest</title>
+      <newCharacters>123456</newCharacters>
+      <text>1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 4 4 4 4
+4 4 5 5 5 5 5 5 5 5 6 6 6 6 6 6 6 6 12 23 34 45 56 6 5 4 3 2
+1 way interest wind set send train that reason swim eye town
+test enjoy both indian short sum brown business air mountain
+verb ride she north another rise me about by hear soft
+father tube be war hundred stay what everyone him
+instruments seem has and the was food safe wash history too
+job quiet east thousands fine different seven hours visit
+base road warm team even end most within observe winter
+start fun where true than save move sure you when wait
+stream out round matter for wonder martin into went are room
+study harmony water draw west on them sat amount said third</text>
+    </lesson>
+    <lesson>
+      <id>{a1b00409-2026-4002-8000-00000000107}</id>
+      <title>Suit minus equal quote</title>
+      <newCharacters>-='</newCharacters>
+      <text>- - - - - - - - = = = = = = = = ' ' ' ' ' ' ' ' -= =' ' = -
+what bed or someone never with brown did farm here won't
+true understand sun sent soft square before joined rest
+stars meet even down amount five body equation team few
+everyone method number front heavy died bit in his war does
+better time to friends two more us wear into this every arms
+quiet heard another my fine air saw around form don't fish
+one eye hours was martin ride sea base rather rise rhythm
+fire history thousands man mean stream quite fair heat root
+than observe entered just questions add him wood ran south
+been water idea not yet sometimes hit isn't stone east has
+bear try today without very are be movement show same wasn't</text>
+    </lesson>
+    <lesson>
+      <id>{a1b00409-2026-4002-8000-00000000108}</id>
+      <title>Stops</title>
+      <newCharacters>,./</newCharacters>
+      <text>, , , , , , , , . . . . . . . . / / / / / / / / ,. ./ / . ,
+sometimes inside does read him heard enjoy true row must day
+method summer boy yes town arms war for instead rain need
+equation reason baby different then west members hit between
+some father form at it your room any miss art set he often
+dress train wonder best easy these same whether note weather
+am brother instruments whose ran who boat heat quite sure
+was way verb stone never round wash rather home so order hot
+square bed fire feet seven white answer noun winter has name
+tiny woman three buy see shown rhythm do house earth tree
+modern move tied heart this information remain said safe sea
+what box friends indian say waves wasn't start human sent</text>
+    </lesson>
+    <lesson>
+      <id>{a1b00409-2026-4002-8000-00000000109}</id>
+      <title>Brackets and colon</title>
+      <newCharacters>[];</newCharacters>
+      <text>[ [ [ [ [ [ [ [ ] ] ] ] ] ] ] ] ; ; ; ; ; ; ; ; [] ]; ; ] [
+industry remain him root famous need stay was order main
+understand another saw six is why summer true must movement
+be new head set state box end job have five in write written
+tree town quiet often most entered statement quite sense i
+iron own ahead instead south questions shouted business
+desert major meet fast has sit sit did room row instruments
+fun sound more matter train mean terms read serve whose oh
+waves story white buy an short everyone bad sure stars
+bottom had man mountain day wasn't other miss army divided
+these ready sum horse hours outside seem inside mouth first
+two behind air hard reason minutes interest wood however bit</text>
+    </lesson>
+    <lesson>
+      <id>{a1b00409-2026-4002-8000-00000000110}</id>
+      <title>Stay Calm Dude</title>
+      <newCharacters>c</newCharacters>
+      <text>c c c c c c c c very under test indicate outside inside city
+doctor round over true horse as far indian heart rather
+visit root carry factories radio waves heat instruments the
+current thousands crowd information church object difference
+same different fine miss consonant wish dance not quiet he
+return or form amount hand second rise race noun century
+save yes note africa everyone students ten too major just to
+face above man ears movement row soft she move method tied
+after side bottom industry minutes need sun dry soon mine
+ran yet in been run rest body behind door this feet front
+made stars train size direction there common are seem air
+chief draw terms road increase cost weather best joined wash</text>
+    </lesson>
+  </lessons>
+</course>

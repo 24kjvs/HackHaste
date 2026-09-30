@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="HackHaste">
+  <title>HackHaste</title>
+  <!-- Bindrune of two Nordic H letters, offset
+       H
+         H
+       The right stave of the upper H runs through the counter of the lower H.
+       The lower crossbar weaves over that stave (true Shift-like lock: every
+       stroke is involved, not a mere overlap). Transparent canvas. -->
+  <g fill="#111111">
+    <!-- Lower-right H (behind) -->
+    <polygon points="227.50,149.00 259.50,201.00 249.50,215.00 249.50,355.00 259.50,369.00 227.50,421.00 195.50,369.00 205.50,355.00 205.50,215.00 195.50,201.00"/>
+    <polygon points="341.50,149.00 373.50,201.00 363.50,215.00 363.50,355.00 373.50,369.00 341.50,421.00 309.50,369.00 319.50,355.00 319.50,215.00 309.50,201.00"/>
+    <rect x="214.30" y="263.00" width="140.40" height="44.00"/>
+    <mask id="hhWeaveGap" maskUnits="userSpaceOnUse" x="0" y="0" width="512" height="512">
+      <rect width="512" height="512" fill="white"/>
+      <rect x="250.50" y="255.00" width="68.00" height="60.00" rx="2.5" fill="black"/>
+    </mask>
+    <g mask="url(#hhWeaveGap)">
+      <!-- Upper-left H -->
+    <polygon points="170.50,91.00 202.50,143.00 192.50,157.00 192.50,297.00 202.50,311.00 170.50,363.00 138.50,311.00 148.50,297.00 148.50,157.00 138.50,143.00"/>
+    <polygon points="284.50,91.00 316.50,143.00 306.50,157.00 306.50,297.00 316.50,311.00 284.50,363.00 252.50,311.00 262.50,297.00 262.50,157.00 252.50,143.00"/>
+    <rect x="157.30" y="205.00" width="140.40" height="44.00"/>
+    </g>
+    <!-- Over-strand: lower H crossbar through the slot -->
+    <rect x="214.30" y="263.00" width="140.40" height="44.00"/>
+  </g>
+</svg>

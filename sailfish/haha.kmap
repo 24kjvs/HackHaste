@@ -1,0 +1,55 @@
+# HackHaste keyboard layout. Dr. Marcus Roe, https://drm.cc/ . MIT License.
+# HackHaste kmap for kmap2qmap.
+# Merge the device droid.kmap / us.kmap so volume keys survive.
+# Do not overwrite boston.qmap until you have a backup.
+keymaps 0-2
+
+keycode 41 = 96 126
+keycode 2 = 49 33
+keycode 3 = 50 64
+keycode 4 = 51 35
+keycode 5 = 52 36
+keycode 6 = 53 37
+keycode 7 = 54 94
+keycode 8 = 91 123
+keycode 9 = 93 125
+keycode 10 = 118 86
+keycode 11 = 120 88
+keycode 12 = 122 90
+keycode 13 = 113 81
+keycode 16 = 55 38
+keycode 17 = 56 42
+keycode 18 = 57 40
+keycode 19 = 48 41
+keycode 20 = 45 95
+keycode 21 = 107 75
+keycode 22 = 108 76
+keycode 23 = 99 67
+keycode 24 = 103 71
+keycode 25 = 121 89
+keycode 26 = 119 87
+keycode 27 = 59 58
+keycode 43 = 92 124
+keycode 30 = 117 85
+keycode 31 = 105 73
+keycode 32 = 97 65
+keycode 33 = 101 69
+keycode 34 = 111 79
+keycode 35 = 104 72
+keycode 36 = 114 82
+keycode 37 = 115 83
+keycode 38 = 116 84
+keycode 39 = 110 78
+keycode 40 = 112 80
+keycode 44 = 39 34
+keycode 45 = 44 60
+keycode 46 = 46 62
+keycode 47 = 47 63
+keycode 48 = 61 43
+keycode 49 = 106 74
+keycode 50 = 109 77
+keycode 51 = 100 68
+keycode 52 = 98 66
+keycode 53 = 102 70
+keycode 86 = 45 95
+keycode 57 = 32 32

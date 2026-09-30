@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets"
+    id="http://drm.cc/hackhaste" version="0.2.0" viewmodes="maximized">
+  <name>HackHaste</name>
+  <content src="index.html"/>
+  <tizen:category name="http://tizen.org/category/ime"/>
+  <tizen:uuid>cc0d0000-2026-4000-8000-00c04fd430c8</tizen:uuid>
+  <tizen:languages>
+    <tizen:language>en-us</tizen:language>
+  </tizen:languages>
+</widget>
