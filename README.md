@@ -4,7 +4,7 @@
 
 *Expedited Typing Across* **OS***es* *Integrated Natively Salvaging Home Rows*
 
-![HackHaste](source/visuals/hackhaste-hh-logo.png)
+![HackHaste](source/visuals/hackhaste-hh-logo-whiteshadow.png)
 
 Right-handed:
 ![HaHa-Main](source/visuals/hackhaste-haha.png)
