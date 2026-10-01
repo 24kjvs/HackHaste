@@ -348,11 +348,7 @@ To rebuild a distro package from the shipped `linux/` tree: `makepkg -f -d` from
 
 Changelog:
 
-We don't talk about "v 0.1"... This is an alpha, please do not expect beta-level results. 0.1 failed on the desktop because:
-
-1. XKB used the invalid keysym `Control` instead of `Control_L`.
-2. There were no `evdev.xml` / `.lst` rules, so `setxkbmap us haha` could not see the layout.
-3. The left XKB file was a copy of main.
+We don't talk about "v 0.1"... This is an alpha, please do not expect beta-level results. 0.1 failed on every level except basic design.
 
 ---
 
