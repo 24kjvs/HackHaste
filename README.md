@@ -30,7 +30,7 @@ This file is the stoa to reveal the doctrine. The workshop (maps, modifiers, pac
 
 ### On putting the alphabet back into English
 
-It is a mark of the modern mind that it will rearrange the stars before it will put the milk next to the tea. QWERTY was a clever answer to a dead machine: it scattered the alphabet so that type-bars would not clash. We have kept the scatter and lost the machine. Colemak and Dvorak, being honest, put common letters under strong fingers, and then **split the native division in language of vowels across both hands**, as if a syllable were an inventory. HackHaste does the thing so obvious that it looks like a joke. HaHa!
+It is a mark of the modern mind that it will rearrange the stars before it will put the milk next to the tea. QWERTY was a clever answer to a dead machine: it scattered the alphabet so that type-bars would not clash. We have kept the scatter and lost the machine. Many keyboards, being honest, put common letters under strong fingers, but then **split the native division in language of vowels across both hands**, as if a syllable were an inventory of equal letters. HackHaste does the thing so obvious that it looks like a joke. HaHa!
 
 There is a class of reformer who will not believe a door is a door until it has been a thesis. He approaches the a thing as he approaches what he is accustomed to working with: he will “balance the load,” “minimise travel,” “optimise the metric,” but at the end of his labours the vowels will remain still mostly in diaspora, and certainly undifferentiated. HackHaste is not that reform. HH notices what English was doing all along, and has the bad manners to say so. HaHa! < It's not obnoxious if it's just the name!
 
