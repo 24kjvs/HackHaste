@@ -184,7 +184,7 @@ This is a defining HackHaste difference. Not every OS lets a keyboard layout fil
 | BeOS / Haiku          | `CapsLock = 0x5c` (LCtrl), `LControl = 0x3b` (Caps)           | Yes                                                           |
 | Amiga keymap          | Qualifier, not a character                                    | No - optional `haha-capsctrl.asm` commodity                   |
 | Apple II              | Hardware Caps Lock                                            | No (cannot become Open-Apple)                             |
-| Solaris Type 6        | Cannot remap HID 57 as Control in the map                     | No - see console notes                                        |
+| Solaris Type 6, Type 4 & 5 | Cannot remap HID 57 as Control in the map                     | No - see console notes                                        |
 | DragonFly             | scan 058 = `lctrl`; scan 029 = `clock`                        | Yes (syscons; not FreeBSD vt)                             |
 | illumos Type 6        | Same HID 57 limit as Solaris                                  | No                                                            |
 | ReactOS / Wine        | Same NT DLL as Windows                                        | Yes - no extra tree                                           |
@@ -231,7 +231,7 @@ freebsd_console/          FreeBSD
 dragonfly_console/        DragonFly BSD syscons + INDEX.keymaps.haha + X11/libinput note
 netbsd_console/           NetBSD
 openbsd_console/          OpenBSD
-solaris_console/          Solaris Type 6
+solaris_console/          Solaris Type 6, Type 4 & 5
 illumos_console/          illumos / OpenIndiana Type 6
 amiga/                    hunk keymap + assembler
 beos/                     Haiku text keymap + BeOS binary Key_map
@@ -268,33 +268,34 @@ The public site is `[WEB/](WEB/)`. Root `index.html` is only the door. GitHub Pa
 
 ### Layout boards
 
-`source/visuals/hackhaste-haha.png` and `hackhaste-haha-left.png` (and the matching `.kle.json`) are the typing cluster: number row through space. HackHaste does not remap the F-row, the Insert/Home/PgUp island, the cursor keys, or the numpad, so those plates are omitted. Physical Caps is labelled Ctrl; physical Left Ctrl is labelled Caps; Right Alt is AltGr. Choir home keys wear a gold underline; engine home keys wear a steel underline. Bone bezels keep the iron plates visible on night paper, day paper, and GitHub’s light porch. The live board on the site is the same cluster.
+`source/visuals/hackhaste-haha.png` and `hackhaste-haha-left.png` are the typing cluster: number row through space. HackHaste does not remap the F-row, the Insert/Home/PgUp island, the cursor keys, or the numpad, so those plates are omitted. Physical Caps is labelled Ctrl; physical Left Ctrl is labelled Caps; Right Alt is AltGr. Choir home keys wear a gold underline; engine home keys wear a steel underline. The live board on the site is the same cluster.
 
 Fingers after install: `[LEARNING HACKHASTE/](LEARNING%20HACKHASTE/)` holds [MNEMONICS.md](LEARNING%20HACKHASTE/MNEMONICS.md), [MNEMONICS-LEFT.md](LEARNING%20HACKHASTE/MNEMONICS-LEFT.md), and tutor files for GNU Typist, KTouch, Klavaro, TIPP10, TuxType, Amphetype, Monkeytype, keybr, and the rest. Catalogue: [LEARNING.md](LEARNING%20HACKHASTE/LEARNING.md).
 
 Identifiers: layout `haha`, variants `left`, `shiftlock`, `left_shiftlock`. Windows DLLs `kbdhaha.dll` / `kbdhahaleft.dll` / `kbdhahasl.dll` / `kbdhahalsl.dll`, KLIDs `a1b00409` / `a1b10409` / `a1b20409` / `a1b30409`. macOS bundle id `com.apple.keyboardlayout.hackhaste` (Apple’s required prefix for installable layouts, TN2056).
 
-### Packages (I've only tested .deb, so all of these may fail)
+### Packages (I've only tested a few of these platforms, so many of these may fail)
 
 Archives in `[dist/](dist/)`:
 
 
-| Archive                              | Platform                                              |
-| ------------------------------------ | ----------------------------------------------------- |
-| `HackHaste-0.2-linux.tar.gz`       | X11, Wayland, Linux TTY                               |
-| `hackhaste_0.2_all.deb`            | Debian / Ubuntu                                       |
-| `hackhaste-0.2-1-any.pkg.tar.zst`  | Arch / pacman                                         |
-| `hackhaste-0.2-1.noarch.rpm`       | Fedora / RHEL / openSUSE                              |
-| `HackHaste-0.2-macos.zip`          | Mac OS X 10.2 through current macOS                   |
-| `HackHaste-0.2-windows.zip`        | Windows NT/2000 through 11 (compile DLL if mingw/WDK) |
-| `HackHaste-0.2-windows-retro.zip`  | DOS 3.3-6.22, Windows 95/98/Me, 32-bit NT 3.51/4.0    |
-| `HackHaste-0.2-bsd-solaris.tar.gz` | FreeBSD, DragonFly, NetBSD, OpenBSD, Solaris, illumos |
-| `HackHaste-0.2-extra-os.zip`       | OS/2, Plan 9, RISC OS, Atari, NeXT, Android (IME+physical), ChromeOS, CE, webOS, TempleOS, Palm, WM, BlackBerry, Symbian, Newton, 3270, consoles, Sailfish, Tizen, IBM i, enterprise Unix |
-| `HackHaste-0.2-ios.zip`            | iOS / iPadOS Keyboard Extension + host app            |
-| `HackHaste-0.2-amiga.zip`          | AmigaOS / MorphOS / AROS                              |
-| `HackHaste-0.2-beos.zip`           | BeOS R5 and Haiku                                     |
-| `HackHaste-0.2-classicmac.zip`     | Mac OS 7 / 8 / 9                                      |
-| `HackHaste-0.2-apple2.zip`         | Apple II ASCII remapper + ProDOS disk                 |
+| Archive                                  | Platform                                              |
+| ---------------------------------------- | ----------------------------------------------------- |
+| `HackHaste-0.2-linux.tar.gz`             | X11, Wayland, Linux TTY                               |
+| `hackhaste_0.2_all.deb`                  | Debian / Ubuntu                                       |
+| `hackhaste-0.2-1-any.pkg.tar.zst`        | Arch / pacman                                         |
+| `hackhaste-0.2-1.noarch.rpm`             | Fedora / RHEL / openSUSE                              |
+| `HackHaste-0.2-macos.zip`                | Mac OS X 10.2 through current macOS                   |
+| `HackHaste-0.2-windows.zip`              | Windows NT/2000 through 11 (compile DLL if mingw/WDK) |
+| `HackHaste-0.2-windows-retro.zip`        | DOS 3.3-6.22, Windows 95/98/Me, 32-bit NT 3.51/4.0    |
+| `HackHaste-0.2-bsd-solaris.tar.gz`       | Free/Open/Net/Dragonfly/BSD, Solaris Type 6 / illumos |
+| `HackHaste-0.2-old-solaris-type-4-5.zip` | Solaris Type 4 & 5                              |
+| `HackHaste-0.2-extra-os.zip`             | OS/2, Plan 9, RISC OS, Atari, NeXT, Android (IME+physical), ChromeOS, CE, webOS, TempleOS, Palm, WM, BlackBerry, Symbian, Newton, 3270, consoles, Sailfish, Tizen, IBM i, enterprise Unix |
+| `HackHaste-0.2-ios.zip`                  | iOS / iPadOS Keyboard Extension + host app            |
+| `HackHaste-0.2-amiga.zip`                | AmigaOS / MorphOS / AROS                              |
+| `HackHaste-0.2-beos.zip`                 | BeOS R5 and Haiku                                     |
+| `HackHaste-0.2-classicmac.zip`           | Mac OS 7 / 8 / 9                                      |
+| `HackHaste-0.2-apple2.zip`               | Apple II ASCII remapper + ProDOS disk                 |
 
 
 ```
@@ -442,7 +443,7 @@ No extra tree. ReactOS and Wine load the NT `KbdLayerDescriptor` DLLs already in
 
 ## 9. BSD and Solaris
 
-Same letter map as Linux console, Colemak-1.0 file shapes:
+Same letter map as Linux console file shapes:
 
 
 | OS        | File                                  | Install                                                                   |
