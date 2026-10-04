@@ -146,6 +146,10 @@ Here, between the hands now, is the whole fraud of the old number row exposed. S
 
 Another note: On the far left of the right hand, you will find the cursor movement keys for vim, on the far right, for emacs; both properly oriented. This is reversed but still present in the left hand variants.
 
+> First say to yourself what you would be; and then do what you have to do.
+>
+> - Epictetus, *Discourses* 3.23
+
 So now that you are done with the porch, the front door is here: [LEARNING HACKHASTE/MNEMONICS.md](LEARNING%20HACKHASTE/MNEMONICS.md) and here [LEARNING HACKHASTE/MNEMONICS-LEFT.md](LEARNING%20HACKHASTE/MNEMONICS-LEFT.md). Instructions for GNU Typist, KTouch, Klavaro, and the rest of the tutors are in [LEARNING HACKHASTE/LEARNING.md](LEARNING%20HACKHASTE/LEARNING.md). Let me know if I missed anything.
 
 
