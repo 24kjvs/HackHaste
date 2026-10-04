@@ -445,18 +445,19 @@ No extra tree. ReactOS and Wine load the NT `KbdLayerDescriptor` DLLs already in
 
 Same letter map as Linux console file shapes:
 
-
-| OS        | File                                  | Install                                                                   |
-| --------- | ------------------------------------- | ------------------------------------------------------------------------- |
-| FreeBSD   | `freebsd_console/haha.iso15.acc.kbd`  | `kbdcontrol -l` / `/usr/share/syscons/keymaps/`                           |
-| DragonFly | `dragonfly_console/haha.iso15.acc.kbd` plus `INDEX.keymaps.haha` | syscons `kbdcontrol -l` / `kbdmap(1)`; X11 is `[linux/xkb](linux/xkb)` + libinput/evdev (`kern.evdev.rcpt_mask` 3 vs 6). Not FreeBSD vt. |
-| NetBSD    | `netbsd_console/pckbd.haha.iso8859-1` | copy to `/usr/share/wscons/keymaps/`, set `mapfile` in `/etc/wscons.conf` |
-| OpenBSD   | `openbsd_console/haha_openbsd.sh`     | `sh haha_openbsd.sh` (`wsconsctl`)                                        |
-| Solaris   | `solaris_console/type_6/haha`         | USB Type 6 console map; Caps cannot become Control here                   |
-| illumos   | `illumos_console/type_6/haha`         | `loadkeys`; append `kbd_layouts.haha`; kernel file `layout_190` (id 400)  |
-
+| OS        | File                                                             | Install                                                                                                                                  |
+| --------- | ---------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| FreeBSD   | `freebsd_console/haha.iso15.acc.kbd`                             | `kbdcontrol -l` / `/usr/share/syscons/keymaps/`                                                                                          |
+| DragonFly | `dragonfly_console/haha.iso15.acc.kbd` plus `INDEX.keymaps.haha` | syscons `kbdcontrol -l` / `kbdmap(1)`; X11 is [`linux/xkb`](linux/xkb) + libinput/evdev (`kern.evdev.rcpt_mask` 3 vs 6). Not FreeBSD vt. |
+| NetBSD    | `netbsd_console/pckbd.haha.iso8859-1`                            | copy to `/usr/share/wscons/keymaps/`, set `mapfile` in `/etc/wscons.conf`                                                                |
+| OpenBSD   | `openbsd_console/haha_openbsd.sh`                                | `sh haha_openbsd.sh` (`wsconsctl`)                                                                                                       |
+| Solaris   | `solaris_console/type_6/haha`                                    | USB Type 6 console map; Caps cannot become Control here                                                                                  |
+| Solaris   | `solaris_console/type_4-5/haha`                                  | Type 4 and Type 5 console map (same keystations); Caps is Left Control, Left Ctrl is Caps Lock                                           |
+| illumos   | `illumos_console/type_6/haha`                                    | `loadkeys`; append `kbd_layouts.haha`; kernel file `layout_190` (id 400)                                                                 |
 
 Left variants use the `haha-left` filename.
+
+Type 4 and Type 5 source is `solaris_console/type_4-5/`. Those are the pre-USB Sun keyboards: Solaris 2.6 reports both as type 4, and the letter stations match, so one map covers both. Copy it to `/usr/share/lib/keytables/type_4/` and to the flat `/usr/share/lib/keytables/` that 2.6 still searches, then `loadkeys haha`. Do not load it on a Type 6 keyboard. OpenWindows and CDE do not read this file; they still want an `US4.kt` entry.
 
 ---
 
