@@ -2,7 +2,7 @@
 
 *Expedited Typing Across* **OS***es* *Integrated Natively Salvaging Home Rows*
 
-![HackHaste](source/visuals/hackhaste-hh-logo.png)
+![HackHaste](source/visuals/hackhaste-hh-logo-whiteshadow.png)
 
 Version **0.2**. MIT License. Dr. Marcus Roe, [drm.cc](https://drm.cc/).
 Identifiers: `haha` / `haha-left` / `haha-shiftlock` / `haha-left-shiftlock`.
@@ -804,7 +804,7 @@ No fake `.prc`. `[palm/haha-millikeys.txt](palm/haha-millikeys.txt)` is a Graffi
 >
 > - Epictetus, *Discourses*
 
-Automated tests on this workshop Linux box parse the maps. They do not boot a guest OS. After you install on a real machine, or on a VM you already have, type these probes on a QWERTY-labeled board.
+Automated tests on this workshop Linux box parse the maps. Many remain untested, but the source is all visible here. After you install on a real machine, or on a VM you already have, type these probes on a QWERTY-labeled board. If you install on an Amiga or Apple II, let me know.
 
 **Gold table**
 
@@ -825,7 +825,7 @@ The same paragraph is at the end of every generated `README-*.txt`, and at the e
 - Windows Retro: [windows/retro/README-windows-retro.txt](windows/retro/README-windows-retro.txt)
 - ReactOS / Wine: [windows/README-reactos-wine.txt](windows/README-reactos-wine.txt)
 - FreeBSD / DragonFly: [dragonfly_console/README-dragonfly.txt](dragonfly_console/README-dragonfly.txt) (maps also in `freebsd_console/`)
-- NetBSD / OpenBSD / Solaris / illumos: [illumos_console/README-illumos.txt](illumos_console/README-illumos.txt) plus `netbsd_console/`, `openbsd_console/`, `solaris_console/`
+- NetBSD / OpenBSD / Solaris / illumos: [illumos_console/README-illumos.txt](illumos_console/README-illumos.txt) plus `netbsd_console/`, `openbsd_console/`, `solaris_console/` [old-solaris](solaris_old_type_4_5/README.md)
 - Amiga: `amiga/Install-HackHaste` (SetMap; gold is still LHF / I→c)
 - BeOS / Haiku: [beos/README-beos.txt](beos/README-beos.txt)
 - Classic Mac: [classicmac/README-classicmac.txt](classicmac/README-classicmac.txt)
@@ -852,14 +852,22 @@ The same paragraph is at the end of every generated `README-*.txt`, and at the e
 - Tizen: [tizen/README-tizen.txt](tizen/README-tizen.txt)
 - IBM i: [ibmi/README-ibmi.txt](ibmi/README-ibmi.txt)
 - Enterprise Unix: [enterprise/README-enterprise.txt](enterprise/README-enterprise.txt)
+- Custom firmware: [General/VIA](firmware/README.md) | [QMK](firmware/qmk/README.md) | [ZMK](firmware/zmk/README.md)
+
+
 
 **VMs (run if you have the guest, not CI)**
 
 FreeBSD / DragonFly `kbdcontrol -l`; NetBSD / OpenBSD `wsconsctl`; Solaris / illumos `loadkeys`; Haiku Keymap; Amiga SetMap; DOSBox `HAHA.COM`; Wine prefix plus `kbdhaha.dll`; ReactOS; ArcaOS; 9front `cat > /dev/kbmap`.
 
+## Firmware
+
+Physical Caps is Left Control. Shortcuts follow the letter. Alt is AltGr. Third-level characters sit on the letter, as in Colemak. The files are the main board, logical ANSI.
+
+
 **Locked firmware**
 
-LG webOS TV, Samsung Tizen TV, IBM 3270 firmware, consoles (Horizon / Orbis), IBM i 5250 firmware: letters follow the PC map in the emulator or table we ship. Firmware remains a [drm.cc](https://drm.cc/) offer. A GitHub zip does not remap the ROM.
+LG webOS TV, Samsung Tizen TV, IBM 3270 firmware, consoles (Horizon / Orbis), IBM i 5250 firmware: letters follow the PC map in the emulator or table we ship.
 
 
 
