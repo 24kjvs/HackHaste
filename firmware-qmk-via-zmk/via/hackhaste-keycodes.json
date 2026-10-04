@@ -1,0 +1,17 @@
+{
+  "name": "HackHaste",
+  "vendorProductId": null,
+  "layers": {
+    "0": ["GRV","1","2","3","4","5","6","LBRC","RBRC","V","X","Z","Q","BSPC",
+          "TAB","7","8","9","0","MINS","K","L","C","G","Y","W","SCLN","BSLS",
+          "LCTL","U","I","A","E","O","H","R","S","T","N","P","ENT",
+          "LSFT","QUOT","COMM","DOT","SLSH","EQL","J","M","D","B","F","RSFT",
+          "LCTL","LGUI","LALT","SPC","RALT","MO(1)","RCTL"],
+    "1": ["GRV","X","V","Z","Q","W","SCLN","1","2","3","4","5","6","BSPC",
+          "TAB","P","G","C","L","K","MINS","7","8","9","0","LBRC","RBRC","BSLS",
+          "LCTL","N","T","S","R","H","O","E","A","I","U","Y","ENT",
+          "LSFT","F","B","D","M","J","EQL","QUOT","COMM","DOT","SLSH","RSFT",
+          "LCTL","LGUI","LALT","SPC","RALT","TRNS","RCTL"]
+  },
+  "note": "Logical ANSI order. VIA dictionaries are per keyboard; map this sequence onto that board's via.json key order after flashing VIA-enabled QMK."
+}
