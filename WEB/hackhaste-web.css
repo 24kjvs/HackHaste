@@ -646,6 +646,11 @@ body.hh-body {
   color: var(--hh-choir);
 }
 
+.hh-prose code {
+  font-family: var(--hh-mono);
+  color: var(--hh-choir);
+}
+
 .hh-foot {
   padding: 2.4rem var(--hh-gutter) 3.2rem;
   border-top: 1px solid var(--hh-rule);
