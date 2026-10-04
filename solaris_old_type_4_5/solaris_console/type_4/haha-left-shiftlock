@@ -1,0 +1,56 @@
+# HackHaste left-hand Shift Lock for Solaris console, Type 4.
+# HackHaste keyboard layout. Dr. Marcus Roe, https://drm.cc/ . MIT License.
+# Keystations are the US Type 4 numbers. Type 5 alphanumeric stations match.
+# Caps (key 119) is Left Control. Physical Left Ctrl (key 76) is Shift Lock.
+# AltGr follows the letter, same pairings as solaris_console/type_6.
+# Partial map: function keys, keypad, shifts, and Delete are left alone.
+key 42   base ` shift ~ caps ~ ctrl ` altg fa_tilde
+key 30   base x shift X caps X ctrl ^X altg fa_cflex
+key 31   base v shift V caps V ctrl ^V altg ~
+key 32   base z shift Z caps Z ctrl ^Z altg æ
+key 33   base q shift Q caps Q ctrl ^Q altg ä
+key 34   base w shift W caps W ctrl ^W altg å
+key 35   base ; shift : caps : ctrl ; altg ö
+key 36   base 1 shift ! caps ! ctrl 1 altg ¡
+key 37   base 2 shift @ caps @ ctrl 2 altg º
+key 38   base 3 shift # caps # ctrl 3 altg ª
+key 39   base 4 shift $ caps $ ctrl 4 altg ¢
+key 40   base 5 shift % caps % ctrl 5 altg ~
+key 41   base 6 shift ^ caps ^ ctrl 6 altg ~
+key 54   base p shift P caps P ctrl ^P altg ø
+key 55   base g shift G caps G ctrl ^G altg ~
+key 56   base c shift C caps C ctrl ^C altg ç
+key 57   base l shift L caps L ctrl ^L altg ~
+key 58   base k shift K caps K ctrl ^K altg ~
+key 59   base - shift _ caps _ ctrl - altg ~
+key 60   base 7 shift & caps & ctrl 7 altg ð
+key 61   base 8 shift * caps * ctrl 8 altg þ
+key 62   base 9 shift ( caps ( ctrl 9 altg ~
+key 63   base 0 shift ) caps ) ctrl 0 altg ~
+key 64   base [ shift { caps { ctrl [ altg «
+key 65   base ] shift } caps } ctrl ] altg »
+key 88   base '\\' shift | caps | ctrl '\\' altg ~
+key 77   base n shift N caps N ctrl ^N altg ñ
+key 78   base t shift T caps T ctrl ^T altg fa_acute
+key 79   base s shift S caps S ctrl ^S altg ß
+key 80   base r shift R caps R ctrl ^R altg fa_grave
+key 81   base h shift H caps H ctrl ^H altg ~
+key 82   base o shift O caps O ctrl ^O altg ó
+key 83   base e shift E caps E ctrl ^E altg é
+key 84   base a shift A caps A ctrl ^A altg á
+key 85   base i shift I caps I ctrl ^I altg í
+key 86   base u shift U caps U ctrl ^U altg ú
+key 87   base y shift Y caps Y ctrl ^Y altg ü
+key 100  base f shift F caps F ctrl ^F altg ã
+key 101  base b shift B caps B ctrl ^B altg ~
+key 102  base d shift D caps D ctrl ^D altg fa_umlaut
+key 103  base m shift M caps M ctrl ^M altg ~
+key 104  base j shift J caps J ctrl ^J altg ~
+key 105  base = shift + caps + ctrl = altg ×
+key 106  base '\'' shift " caps " ctrl '\'' altg õ
+key 107  base , shift < caps < ctrl , altg fa_cedilla
+key 108  base . shift > caps > ctrl . altg ~
+key 109  base / shift ? caps ? ctrl / altg ¿
+key 119  all shiftkeys+leftctrl up shiftkeys+leftctrl
+key 76   all shiftkeys+shiftlock up shiftkeys+shiftlock
+key 13   all shiftkeys+altgraph up shiftkeys+altgraph
