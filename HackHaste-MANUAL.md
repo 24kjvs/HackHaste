@@ -682,9 +682,9 @@ No fake `.prc`. `[palm/haha-millikeys.txt](palm/haha-millikeys.txt)` is a Graffi
 
 ## 26. Windows Mobile / Windows Phone
 
-> First say to yourself what you would be; and then do what you have to do.
+> Some things are under our control, while others are not under our control. Under our control are conception, choice, desire, aversion, and, in a word, everything that is our own doing; not under our control are our body, our property, reputation, office, and, in a word, everything that is not our own doing.
 >
-> - Epictetus, *Discourses* 3.23
+> - Epictetus, *Enchiridion* 1
 
 `[windowsmobile/haha-sip.c](windowsmobile/haha-sip.c)` is an `IInputMethod` character table for Windows Mobile 5/6 SIP. `[windowsmobile/HackHastePhone.xaml](windowsmobile/HackHastePhone.xaml)` is an in-app WP7 keyboard. WP7 cannot replace the system SIP. Read `[windowsmobile/README-windowsmobile.txt](windowsmobile/README-windowsmobile.txt)`.
 
@@ -802,9 +802,9 @@ No fake `.prc`. `[palm/haha-millikeys.txt](palm/haha-millikeys.txt)` is a Graffi
 
 ## 37. Live-machine checks
 
-> First say to yourself what you would be; then do what you have to do.
+> Alexander the Macedonian and his stable-boy were brought by death to the same condition; for either they were received among the same seminal principles of the universe, or they were alike dispersed into atoms.
 >
-> - Epictetus, *Discourses*
+> - Marcus Aurelius, *Meditations* 6.24
 
 Automated tests on this workshop Linux box parse the maps. Many remain untested, but the source is all visible here. After you install on a real machine, or on a VM you already have, type these probes on a QWERTY-labeled board. If you install on an Amiga or Apple II, let me know.
 
@@ -866,6 +866,17 @@ FreeBSD / DragonFly `kbdcontrol -l`; NetBSD / OpenBSD `wsconsctl`; Solaris / ill
 
 Physical Caps is Left Control. Shortcuts follow the letter. Alt is AltGr. Third-level characters sit on the letter, as in Colemak. The files are the main board, logical ANSI.
 
+firmware/qmk/keymaps/hackhaste/keymap.c
+firmware/qmk/keymaps/hackhaste/rules.mk
+firmware/qmk/keymaps/hackhaste/config.h
+firmware/zmk/boards/shields/hackhaste/hackhaste.keymap
+firmware/via/hackhaste-keycodes.json
+
+`haha-left`, `haha-shiftlock`, and `haha-left-shiftlock` are other keyboard files. They are not layers. A Shift Lock file holds Shift. A left file is the geometric swap. VIA, once enabled, takes the main sequence spliced into that board’s dictionary. ZMK is the main board; retarget the node if the shield is not ANSI.
+
+Do not paste `LAYOUT_65_ansi` onto a board that is not that layout. Transplant the keycodes into the matrix you already ship. Shifted symbols are the US shift of the keycode (`1!`, `7&`, `[{`, `=+`).
+
+Identifiers remain `haha`, `haha-left`, `haha-shiftlock`, `haha-left-shiftlock` for the OS packages. One file per identifier.
 
 **Locked firmware**
 
