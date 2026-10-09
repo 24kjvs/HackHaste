@@ -101,6 +101,65 @@ body.hh-body {
   z-index: 0;
 }
 
+
+ .hh-trade { max-width: var(--hh-wide); margin: 0.2rem 0 1.8rem; }
+  .hh-trade h3 {
+    font-family: var(--hh-sans);
+    font-weight: 500;
+    font-size: 1.15rem;
+    margin: 1.2rem 0 0.7rem;
+  }
+  .hh-trade h3 span { font-weight: 400; color: var(--hh-bone-dim); font-size: 0.9rem; }
+  .hh-cols { display: grid; grid-template-columns: 1fr; gap: 1.1rem; }
+  @media (min-width: 720px) { .hh-cols { grid-template-columns: 1fr 1fr 1fr; } }
+  @media (min-width: 720px) { .hh-cols.pair { grid-template-columns: 1fr 1fr; } }
+  .hh-col h4 { font-family: var(--hh-sans); font-size: 0.95rem; font-weight: 500; margin: 0; }
+  .hh-col p { font-family: var(--hh-serif); color: var(--hh-bone-dim); font-size: 0.92rem; margin: 0.15rem 0 0.45rem; }
+  .hh-row {
+    display: grid;
+    grid-template-columns: 6.2rem 3.6rem 1fr;
+    align-items: center;
+    gap: 0.35rem;
+    margin: 0.28rem 0;
+    font-family: var(--hh-sans);
+    font-size: 0.88rem;
+    font-variant-numeric: tabular-nums;
+  }
+  .hh-track { height: 0.4rem; background: var(--hh-rule); }
+  .hh-track > span { display: block; height: 100%; background: currentColor; }
+  .hh-row.us { color: var(--hh-choir); }
+  .hh-caption {
+    font-family: var(--hh-serif);
+    color: var(--hh-bone-dim);
+    margin: 0.8rem 0 0;
+    font-size: 0.98rem;
+  }
+  .hh-fingers {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    font-family: var(--hh-sans);
+    font-size: 0.88rem;
+    font-variant-numeric: tabular-nums;
+  }
+  .hh-fingers caption {
+    caption-side: bottom;
+    text-align: left;
+    font-family: var(--hh-serif);
+    color: var(--hh-bone-dim);
+    padding-top: 0.4rem;
+  }
+  .hh-fingers th, .hh-fingers td {
+    text-align: right;
+    padding: 0.2rem 0.45rem;
+    border-bottom: 1px solid var(--hh-rule);
+  }
+  .hh-fingers th:first-child { text-align: left; font-weight: 500; }
+  .hh-fingers thead th { font-weight: 500; }
+}
+
+
+
 .hh-skip {
   position: absolute;
   left: 0.8rem;
@@ -697,58 +756,4 @@ body.hh-body {
   .hh-nav-mark span {
     display: none;
   }
-  .hh-trade { max-width: var(--hh-wide); margin: 0.2rem 0 1.8rem; }
-  .hh-trade h3 {
-    font-family: var(--hh-sans);
-    font-weight: 500;
-    font-size: 1.15rem;
-    margin: 1.2rem 0 0.7rem;
-  }
-  .hh-trade h3 span { font-weight: 400; color: var(--hh-bone-dim); font-size: 0.9rem; }
-  .hh-cols { display: grid; grid-template-columns: 1fr; gap: 1.1rem; }
-  @media (min-width: 720px) { .hh-cols { grid-template-columns: 1fr 1fr 1fr; } }
-  @media (min-width: 720px) { .hh-cols.pair { grid-template-columns: 1fr 1fr; } }
-  .hh-col h4 { font-family: var(--hh-sans); font-size: 0.95rem; font-weight: 500; margin: 0; }
-  .hh-col p { font-family: var(--hh-serif); color: var(--hh-bone-dim); font-size: 0.92rem; margin: 0.15rem 0 0.45rem; }
-  .hh-row {
-    display: grid;
-    grid-template-columns: 6.2rem 3.6rem 1fr;
-    align-items: center;
-    gap: 0.35rem;
-    margin: 0.28rem 0;
-    font-family: var(--hh-sans);
-    font-size: 0.88rem;
-    font-variant-numeric: tabular-nums;
-  }
-  .hh-track { height: 0.4rem; background: var(--hh-rule); }
-  .hh-track > span { display: block; height: 100%; background: currentColor; }
-  .hh-row.us { color: var(--hh-choir); }
-  .hh-caption {
-    font-family: var(--hh-serif);
-    color: var(--hh-bone-dim);
-    margin: 0.8rem 0 0;
-    font-size: 0.98rem;
-  }
-  .hh-fingers {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 1rem;
-    font-family: var(--hh-sans);
-    font-size: 0.88rem;
-    font-variant-numeric: tabular-nums;
-  }
-  .hh-fingers caption {
-    caption-side: bottom;
-    text-align: left;
-    font-family: var(--hh-serif);
-    color: var(--hh-bone-dim);
-    padding-top: 0.4rem;
-  }
-  .hh-fingers th, .hh-fingers td {
-    text-align: right;
-    padding: 0.2rem 0.45rem;
-    border-bottom: 1px solid var(--hh-rule);
-  }
-  .hh-fingers th:first-child { text-align: left; font-weight: 500; }
-  .hh-fingers thead th { font-weight: 500; }
-}
+ 
