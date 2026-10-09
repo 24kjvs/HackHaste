@@ -21,7 +21,8 @@
         <span>HackHaste</span>
       </a>
       <a href="#board">Board</a>
-      <a href="#try">Try it</a>
+      <a href="#try">Try it!</a>
+      <a href="#measure">Measure</a>
       <a href="#install">Install</a>
       <a href="#learn">Learn.</a>
       <a href="https://github.com/24kjvs/HackHaste/tree/main">Hack.</a>
@@ -256,6 +257,294 @@ sudo rpm -i dist/hackhaste-0.2-1.noarch.rpm</pre>
         <a href="../LICENSE"><strong>Grant</strong> MIT License</a>
       </div>
     </section>
+
+    <section class="hh-section" id="measure">
+  <h2>The measure</h2>
+  <div class="hh-prose">
+    <p>In HackHaste, English and Code came together and signed on a mutually beneficial loan, making minimal compromises for maximal outcome. On the books, that means homerow is 74.21% of letters for HackHaste, 74.14% for Colemak, 71.17% for Dvorak, and 34.29% for QWERTY. On code it is 73.25%, 69.82%, 65.66%, and 30.42%. Modest wins for HackHaste over the great Colemak and Dorak.</p>
+    <p>Two texts, one fingermap, digits kept. The prose data is not just an American sample, including a majority of International English: 62% and 38%, the distinction matters little when broken out statistically as they score relatively the same. The sample is 29 books, 12,400,035 keystrokes, in that split. Swift and Stoker are in the British share. I am a hopeful sampler.</p>
+<p>Code is weighted toward the languages developers use, from the 2026 Stack Overflow survey, 810,027 keystrokes, 6.18% digits. JavaScript is still the language the most people said they used, at 62%, for the twelfth year. Shrinking from 2025 when that share was reported at 66%. Python is a growing 58%, and among people with one to five years it is ahead of JavaScript, 66.6% to 61.6%. Rust rose from about 15% to 18%, at 12th now. This sample is about 24% JavaScript and TypeScript together, 21% Python, and 7% Rust, then Java, C#, SQL, C, PHP, and C++. Shell and Go are in it and smaller. Everything gets measured. Weights, in the open: home 0, the letter rows off home 1, a number-row key in that finger’s own columns 2, physical minus and equal 3.</p>
+  </div>
+
+  <h3>Rolls, cross-rolls, same fingers, reaches, and reversals</h3>
+  <div class="hh-prose">
+<p>Rolls are the fingers used directionally, pinky toward index or index toward pinky. A cross-roll is that same direction with one key of the other hand in the middle. Most comparison tables count only the regular roll, so the cross-roll is missing from them. To repeat: the roll is an ordering of three keys in one direction, with cross-rolls throwing in asides. Statistically, it should be difficult to get above 75%, as there is always a crossback-reversal or same finger at the end of a roll.</p>
+    <p>Same finger is one finger and two different keys, one after the other. On QWERTY the usual pair in the books is <em>ed</em>. E is the left middle finger, on the upper row. D is that same finger, on the home row. The finger strikes, moves, and strikes again. A doubled letter such as <em>ee</em> is not counted.</p>
+  </div>
+
+  <div class="hh-trade">
+    <div class="hh-cols">
+      <div class="hh-col">
+        <h4>Rolls, code</h4>
+        <p>Regular and cross, added. More is better.</p>
+        <div class="hh-row us"><span>HackHaste</span><span>84.22%</span><span class="hh-track" aria-hidden="true"><span style="width:100%"></span></span></div>
+        <div class="hh-row"><span>QWERTY</span><span>68.26%</span><span class="hh-track" aria-hidden="true"><span style="width:81%"></span></span></div>
+        <div class="hh-row"><span>Dvorak</span><span>81.63%</span><span class="hh-track" aria-hidden="true"><span style="width:97%"></span></span></div>
+        <div class="hh-row"><span>Colemak</span><span>78.48%</span><span class="hh-track" aria-hidden="true"><span style="width:93%"></span></span></div>
+      </div>
+      <div class="hh-col">
+        <h4>Regular rolls, code</h4>
+        <p>One hand. The usual table.</p>
+        <div class="hh-row"><span>HackHaste</span><span>39.12%</span><span class="hh-track" aria-hidden="true"><span style="width:88%"></span></span></div>
+        <div class="hh-row"><span>QWERTY</span><span>41.42%</span><span class="hh-track" aria-hidden="true"><span style="width:93%"></span></span></div>
+        <div class="hh-row"><span>Dvorak</span><span>37.48%</span><span class="hh-track" aria-hidden="true"><span style="width:84%"></span></span></div>
+        <div class="hh-row us"><span>Colemak</span><span>44.66%</span><span class="hh-track" aria-hidden="true"><span style="width:100%"></span></span></div>
+      </div>
+      <div class="hh-col">
+        <h4>Cross-rolls, code</h4>
+        <p>Keys of the other hand in the middle.</p>
+        <div class="hh-row us"><span>HackHaste</span><span>45.10%</span><span class="hh-track" aria-hidden="true"><span style="width:100%"></span></span></div>
+        <div class="hh-row"><span>QWERTY</span><span>26.84%</span><span class="hh-track" aria-hidden="true"><span style="width:60%"></span></span></div>
+        <div class="hh-row"><span>Dvorak</span><span>44.14%</span><span class="hh-track" aria-hidden="true"><span style="width:98%"></span></span></div>
+        <div class="hh-row"><span>Colemak</span><span>33.82%</span><span class="hh-track" aria-hidden="true"><span style="width:75%"></span></span></div>
+      </div>
+    </div>
+    <p class="hh-caption">A regular roll stays on one hand. A skip over one finger is also a roll: 61.6% of HackHaste’s, 53.0% of Colemak’s on regular one hand rolls. A cross-roll is the same direction with up to three rolling keys of the other hand after the second finger of a roll, returning thus to a third finger in the roll on the first hand. Other tables stop at the regular roll. The one-sided metric of one-hand roll only and not cross-roll usually on the books is led by Colemak. The cross-roll of HackHaste leads only slightly over Dvorak, the success of the runner-up due in part to Dvorak's attention to the vowels. Added together however, HackHaste is more decisively victorious as developed specifically for this.</p>
+
+    <div class="hh-cols">
+      <div class="hh-col">
+        <h4>Rolls, code</h4>
+        <p>Regular and cross, added. More is better.</p>
+        <div class="hh-row us"><span>HackHaste</span><span>84.22%</span><span class="hh-track" aria-hidden="true"><span style="width:100%"></span></span></div>
+        <div class="hh-row"><span>QWERTY</span><span>68.26%</span><span class="hh-track" aria-hidden="true"><span style="width:81%"></span></span></div>
+        <div class="hh-row"><span>Dvorak</span><span>81.63%</span><span class="hh-track" aria-hidden="true"><span style="width:97%"></span></span></div>
+        <div class="hh-row"><span>Colemak</span><span>78.48%</span><span class="hh-track" aria-hidden="true"><span style="width:93%"></span></span></div>
+      </div>
+      <div class="hh-col">
+        <h4>Regular rolls, code</h4>
+        <p>One hand. The usual table.</p>
+        <div class="hh-row"><span>HackHaste</span><span>39.12%</span><span class="hh-track" aria-hidden="true"><span style="width:88%"></span></span></div>
+        <div class="hh-row"><span>QWERTY</span><span>41.42%</span><span class="hh-track" aria-hidden="true"><span style="width:93%"></span></span></div>
+        <div class="hh-row"><span>Dvorak</span><span>37.48%</span><span class="hh-track" aria-hidden="true"><span style="width:84%"></span></span></div>
+        <div class="hh-row us"><span>Colemak</span><span>44.66%</span><span class="hh-track" aria-hidden="true"><span style="width:100%"></span></span></div>
+      </div>
+      <div class="hh-col">
+        <h4>Cross-rolls, code</h4>
+        <p>Keys of the other hand in the middle.</p>
+        <div class="hh-row us"><span>HackHaste</span><span>45.10%</span><span class="hh-track" aria-hidden="true"><span style="width:100%"></span></span></div>
+        <div class="hh-row"><span>QWERTY</span><span>26.84%</span><span class="hh-track" aria-hidden="true"><span style="width:60%"></span></span></div>
+        <div class="hh-row"><span>Dvorak</span><span>44.14%</span><span class="hh-track" aria-hidden="true"><span style="width:98%"></span></span></div>
+        <div class="hh-row"><span>Colemak</span><span>33.82%</span><span class="hh-track" aria-hidden="true"><span style="width:75%"></span></span></div>
+      </div>
+    </div>
+    <p class="hh-caption">On code HackHaste is first overall, with Dvorak and Colemak not far off. Regular one-hand roll alone is again led by Colemak, 44.66% against HackHaste’s 39.12%. The cross-roll is again led by HackHaste, 45.10%, with Dvorak close at 44.14%. Other tables would have stopped at the regular roll.</p>
+
+  </div>
+
+  <div class="hh-trade">
+    <h3>Same Finger, Reach, and Reversal: Prose and Code <span>12.4m and 810k keystroke samples respectively</span></h3>
+    <div class="hh-prose">
+      <p>QWERTY’s leading same-finger pair is <code>de</code>: 6,088 times. Colemak’s is <code>0;</code>, 6,021 times, and that pair is QWERTY’s second. In-column number-row reaches are 7.86% for HackHaste and 11.65% for the other three, because 7, 8, 9, and 0 left the number row, a trade-off from some perspectives but worthwhile. Interestingly, the right ring finger HackHaste column V G T B as a block is like a pillar of proof, important letters all arrangements of which accounting for a paltry 0.03% of prose pairs together, a mercy.</p>
+    <p>The bar called Reach is all about where keys sit in relation to the fingers. Eight home placements are 0. The upper and lower rows are 1. A number-row key in that finger’s column is 2. Two smaller terms are then added, and those do look at the previous key. A same-finger row change adds the number of rows. An index finger sliding to its other column adds 1. That slide is lateral though, not quite technically reach, understandably.</p>
+    <p>A reversal is like a regular roll, except the final finger changes direction. You start one way, and the third letter comes back. This is not like a regular roll as being an utter contradiction. It's not bad, so much as statistically unavoidable for the most part on some level, but it should surely be minimized.</p>
+    <p>On QWERTY the most common letter reversal in the books, our "prose" sample, is <em>ere</em>, at 38,006 times. E, left middle, upper row. R, left index, upper row. E, left middle again. An especially mild example in terms of effect but informative so therefore of import. This pattern is 13.36% of QWERTY’s three-letter sequences, and 10.90% of Colemak’s. Colemak’s three most common are <em>ion</em>, <em>was</em>, and <em>you</em>.</p>
+    <p>On HackHaste this is 2.3%, the most common being <em>ght</em>, 22,441 times. G is the right ring, upper row. H is the right index, home. T is the right ring, home. Ring, index, ring. The ring comes back, which these tables count as a reversal. The whole class is 2.3% of the sequences, not 13% or 10%. Strict means an index finger took part. Weak means it did not. Of that 2.3%, 1.9 are strict and 0.4 are weak.</p>
+    </div>
+    <h4>Prose</h4>
+    <div class="hh-cols">
+      <div class="hh-col">
+        <h4>Same finger, lower is better</h4>
+        <p>HackHaste and Colemak very close in this regard.</p>
+        <div class="hh-row us"><span>HackHaste</span><span>1.59%</span><span class="hh-track" aria-hidden="true"><span style="width:24%"></span></span></div>
+        <div class="hh-row"><span>QWERTY</span><span>6.55%</span><span class="hh-track" aria-hidden="true"><span style="width:100%"></span></span></div>
+        <div class="hh-row"><span>Dvorak</span><span>2.67%</span><span class="hh-track" aria-hidden="true"><span style="width:41%"></span></span></div>
+        <div class="hh-row"><span>Colemak</span><span>1.66%</span><span class="hh-track" aria-hidden="true"><span style="width:25%"></span></span></div>
+      </div>
+      <div class="hh-col">
+        <h4>Reach, lower is better</h4>
+        <p>The other three all in the same ballpark, below half of QWERTY.</p>
+        <div class="hh-row"><span>HackHaste</span><span>0.323</span><span class="hh-track" aria-hidden="true"><span style="width:43%"></span></span></div>
+        <div class="hh-row"><span>QWERTY</span><span>0.745</span><span class="hh-track" aria-hidden="true"><span style="width:100%"></span></span></div>
+        <div class="hh-row"><span>Dvorak</span><span>0.347</span><span class="hh-track" aria-hidden="true"><span style="width:47%"></span></span></div>
+        <div class="hh-row us"><span>Colemak</span><span>0.309</span><span class="hh-track" aria-hidden="true"><span style="width:41%"></span></span></div>
+      </div>
+      <div class="hh-col">
+        <h4>Reversals, lower is better</h4>
+        <p>One finger order direction, then back.</p>
+        <div class="hh-row us"><span>HackHaste</span><span>2.30%</span><span class="hh-track" aria-hidden="true"><span style="width:17%"></span></span></div>
+        <div class="hh-row"><span>QWERTY</span><span>13.36%</span><span class="hh-track" aria-hidden="true"><span style="width:100%"></span></span></div>
+        <div class="hh-row"><span>Dvorak</span><span>3.37%</span><span class="hh-track" aria-hidden="true"><span style="width:25%"></span></span></div>
+        <div class="hh-row"><span>Colemak</span><span>10.90%</span><span class="hh-track" aria-hidden="true"><span style="width:82%"></span></span></div>
+      </div>
+    </div>
+
+    <h4>Code</h3>
+    <div class="hh-cols">
+      <div class="hh-col">
+        <h4>Same finger</h4>
+        <p>Lower is better.</p>
+        <div class="hh-row us"><span>HackHaste</span><span>4.29%</span><span class="hh-track" aria-hidden="true"><span style="width:43%"></span></span></div>
+        <div class="hh-row"><span>QWERTY</span><span>9.89%</span><span class="hh-track" aria-hidden="true"><span style="width:100%"></span></span></div>
+        <div class="hh-row"><span>Dvorak</span><span>6.49%</span><span class="hh-track" aria-hidden="true"><span style="width:66%"></span></span></div>
+        <div class="hh-row"><span>Colemak</span><span>5.44%</span><span class="hh-track" aria-hidden="true"><span style="width:55%"></span></span></div>
+      </div>
+      <div class="hh-col">
+        <h4>Reach</h4>
+        <p>Lower is better. This is not the reversal.</p>
+        <div class="hh-row us"><span>HackHaste</span><span>0.599</span><span class="hh-track" aria-hidden="true"><span style="width:56%"></span></span></div>
+        <div class="hh-row"><span>QWERTY</span><span>1.068</span><span class="hh-track" aria-hidden="true"><span style="width:100%"></span></span></div>
+        <div class="hh-row"><span>Dvorak</span><span>0.713</span><span class="hh-track" aria-hidden="true"><span style="width:66%"></span></span></div>
+        <div class="hh-row"><span>Colemak</span><span>0.727</span><span class="hh-track" aria-hidden="true"><span style="width:68%"></span></span></div>
+      </div>
+      <div class="hh-col">
+        <h4>Reversals</h4>
+        <p>One hand, then back. Lower is better.</p>
+        <div class="hh-row us"><span>HackHaste</span><span>4.51%</span><span class="hh-track" aria-hidden="true"><span style="width:36%"></span></span></div>
+        <div class="hh-row"><span>QWERTY</span><span>12.19%</span><span class="hh-track" aria-hidden="true"><span style="width:98%"></span></span></div>
+        <div class="hh-row"><span>Dvorak</span><span>5.72%</span><span class="hh-track" aria-hidden="true"><span style="width:46%"></span></span></div>
+        <div class="hh-row"><span>Colemak</span><span>12.42%</span><span class="hh-track" aria-hidden="true"><span style="width:100%"></span></span></div>
+      </div>
+    </div>
+    <p class="hh-caption">On code, all three short bars are HackHaste. In prose, HackHaste leads on the other two but is second only in Reach to Colemak by 0.014.</p>
+  </div>
+
+
+  <h3>How far the fingers move</h3>
+  <div class="hh-prose">
+    <p>One key is 19.05 millimetres. The board is the ANSI character block: number row, upper row, home row, lower row. Tab is 1.5 keys wide, Caps Lock 1.75, left Shift 2.25. That stagger is the same on a 60% and on a full-size board. The number row is two keys above home, not one. A function row is not in the distance. Each of the eight fingers starts on its home key and goes back there when the word ends. A space is most commonly that return. The thumb is not in the distance, and Shift is not a separate step.</p>
+    <p>That path is two different moves. Leaving the row is a walk: up, down, or up to the numbers, and back at the space. The porch is the other one. It is the next key on the same row, one column over. On HackHaste the left index lives on E, and O is that next key. The finger does not leave the row. It is usually the only step that finger takes. A ruler that bills the step out and the step back, at the same millimetres as a row change, is measuring a porch as if it were a walk.</p>
+    <p>Colemak’s O is the right pinky’s home key, so a single total made Colemak look shorter. That comparison was the books, and only the books, but it is also important to note that this is the only letter stretch of the left hand, given to the index. That left index therefore leaves the row for 0.08 metres per 100 words (mphw), and the whole left hand is 0.85 metres of the 5.57. The HackHaste instrument-righthand and breath-lefthand system is functioning precisely as designed, singing its choir. Colemak’s left index leaves the row for 1.23 mphw, for sake of reference. HackHaste was designed as an instrument for language and code.</p>
+  </div>
+  <div class="hh-trade">
+    <div class="hh-cols pair">
+      <div class="hh-col">
+        <h4>Off the row, prose</h4>
+        <p>Metres per 100 words (mphw). The walk.</p>
+        <div class="hh-row"><span>HackHaste</span><span>5.57 mphw</span><span class="hh-track" aria-hidden="true"><span style="width:50%"></span></span></div>
+        <div class="hh-row"><span>QWERTY</span><span>11.23 mphw</span><span class="hh-track" aria-hidden="true"><span style="width:100%"></span></span></div>
+        <div class="hh-row"><span>Dvorak</span><span>5.79 mphw</span><span class="hh-track" aria-hidden="true"><span style="width:52%"></span></span></div>
+        <div class="hh-row us"><span>Colemak</span><span>5.28 mphw</span><span class="hh-track" aria-hidden="true"><span style="width:47%"></span></span></div>
+      </div>
+      <div class="hh-col">
+        <h4>Off the row, code</h4>
+        <p>112,082 words.</p>
+        <div class="hh-row us"><span>HackHaste</span><span>14.45 mphw</span><span class="hh-track" aria-hidden="true"><span style="width:73%"></span></span></div>
+        <div class="hh-row"><span>QWERTY</span><span>19.79 mphw</span><span class="hh-track" aria-hidden="true"><span style="width:100%"></span></span></div>
+        <div class="hh-row"><span>Dvorak</span><span>15.25 mphw</span><span class="hh-track" aria-hidden="true"><span style="width:77%"></span></span></div>
+        <div class="hh-row"><span>Colemak</span><span>15.41 mphw</span><span class="hh-track" aria-hidden="true"><span style="width:78%"></span></span></div>
+      </div>
+    </div>
+    <div class="hh-cols pair">
+      <p>Higher or lower does not really matter in the following derivative scores. The importance is in demonstrating the contrasts by ratios. The lateral is typically underutilised, especially where not bigrammatically costly.</p>
+      <div class="hh-col">
+        <h4>Porch (sideways reach ratio), prose</h4>
+        <p>Same rows, one column over.</p>
+        <div class="hh-row"><span>HackHaste</span><span>2.36 mphw</span><span class="hh-track" aria-hidden="true"><span style="width:100%"></span></span></div>
+        <div class="hh-row us"><span>QWERTY</span><span>1.45 mphw</span><span class="hh-track" aria-hidden="true"><span style="width:61%"></span></span></div>
+        <div class="hh-row"><span>Dvorak</span><span>1.62 mphw</span><span class="hh-track" aria-hidden="true"><span style="width:69%"></span></span></div>
+        <div class="hh-row"><span>Colemak</span><span>1.71 mphw</span><span class="hh-track" aria-hidden="true"><span style="width:72%"></span></span></div>
+      </div>
+      <div class="hh-col">
+        <h4>Porch (sideways reach ratio), code</h4>
+        <p>Same rows, one column over. This is the lefthand taking up its "mech" suit, doing its duty in code, and certain letters at the porch becoming less important. O is down by around 20%, H cutting off dramatically as well showing up in all but Dvorak, it being instead impacted by its placement of - on the homerow lateral to the right pinky where HackHaste has P and Colemak '. - is a column and row reach for HackHaste as well but on the strong left index instead of the right pinky, and not nearly as much of a stretch as it is for QWERTY or Colemak. ; is placed near return carriage, for an easy swipe on repeat while using Emacs cursor shortcuts.</p>
+        <div class="hh-row"><span>HackHaste</span><span>1.68 mphw</span><span class="hh-track" aria-hidden="true"><span style="width:88%"></span></span></div>
+        <div class="hh-row"><span>QWERTY</span><span>1.38 mphw</span><span class="hh-track" aria-hidden="true"><span style="width:73%"></span></span></div>
+        <div class="hh-row"><span>Dvorak</span><span>1.90 mphw</span><span class="hh-track" aria-hidden="true"><span style="width:100%"></span></span></div>
+        <div class="hh-row us"><span>Colemak</span><span>1.19 mphw</span><span class="hh-track" aria-hidden="true"><span style="width:63%"></span></span></div>
+      </div>
+    </div>
+    <p class="hh-caption">This data reveals how fundamentally different HackHaste operates. The right-hand porches are effectively three slots the layout built on purpose. Prose use the one meant for it, and leaves the other two alone. The prose porch is H, K, J beside R, L, M. The code porch is primarily P, W, ;, \ beside N and Y, which is where the engine put it on purpose. The third porch is next to the code porch as the attic, where we keep the letters rare X (X isn't technically off the porch), Z, Q which never pair. The right index rests on R. The other key in that column pair is H, also home. The prose engine builds the, that, which, he. In the books the slide out to H is 0.46 meters per 100 words and the slide home is 0.38 mphw. Code does not say those words. The same slide is 0.11 mphw out and 0.09 mphw back. K and L sit on the upper row of that finger, so a code name can porch there too, but it does not replace H. That is the drop from 0.96 mphw to 0.32 mphw. The right pinky rests on N. The other home key is P. That is the code engine: names end in p or shorten to x and y or z, w, and q; and p stays on the home row as symbolic in maths and statistics, instead of a reach. In code the slide out to P is 0.16 mphw and the slide home is 0.13 mphw, against 0.11 mphw and 0.07 mphw in the books. N to P and back adds another 0.13 mphw. The semicolon is on that same pinky’s upper row, beside Y and W, so a slide from Y to ; is simple enough. It is small, 0.02 mphw, but it is the same idea as the rest in endings next to carrying forward. The O was put on the E porch because it is the vowel with the lowest neighbour frequencies with E. E needed to be on the index of the less used hand, and O is the least common neighbour of E by quite a massive factor (I could have chosen OA/AO or IU/UI and people still would have complained about boat or luigi as opposed to geology; I stand by E needing to be on the strongest finger at the porch of the less active hand.):</p>
+    <div class="hh-cols">
+      <div class="hh-col"><h4>Least common vowel pairings according to Norvig’s bigram counts</h4>
+        <div class="hh-row"><span>Rank</span><span>Paired pairs</span><span>Combined count</span></div>
+        <div class="hh-row"><span>1</span><span>AO/OA</span><span>1,620,913,259</span></div>
+        <div class="hh-row"><span>2</span><span>EO/OE</span><span>3,133,522,994</span></div>
+        <div class="hh-row"><span>3</span><span>IU/UI</span><span>3,343,057,320</span></div>
+        <div class="hh-row"><span>4</span><span>EU/UE</span><span>5,036,850,660</span></div>
+        <div class="hh-row"><span>5</span><span>AU/UA</span><span>7,200,461,017</span></div> 
+      </div>
+    </div>
+    <a href="https://www.norvig.com/mayzner.html">source</a>
+<p class="hh-caption">Nothing in the code bar was filtered out. It is the eight fingers added together. On the books the HackHaste left hand is 0.85 mphw. In code it is 6.16 mphw. The left ring goes from 0.37 mphw to 1.20 mphw, the left middle from 0.19 mphw to 1.40 mphw, and the left index from 0.08 mphw to 2.54 mphw. The less-than sign is the comma key, the greater-than sign is the period key, the open parenthesis is 9, and the close parenthesis is 0. This sample has 1,932 less-than signs, 3,210 greater-than signs, 17,568 open parentheses, and 17,615 close parentheses. The parentheses are the large left-hand reach. The angle brackets are real and smaller, because the sample is the languages people write, not a pile of templates. Shift is not some ancillary step. Colemak’s left hand in code is 5.34 mphw, and its right hand is 10.07 mphw. HackHaste’s right hand is 8.29 mphw. The code total is shorter for HackHaste because of that right hand, not just because the left one stays home in prose. It is also important to note how in the books, the word often ends on O, so the return is 0.44 mphw of porch. In code that finger often ends on 9 or 0, so the return is a walk and only 0.19 mphw of porch is left. The large drop between prose and code is all about H, not O, just like with Colemak and QWERTY. Books slide the right index between R and H for 0.96 mphw. Code does that for 0.32 mphw. P actually rises. The 2.36 mphw to 1.68 mphw is that H slide leaving, plus the O ending no longer happening on a row.</p>
+    <table class="hh-fingers">
+      <caption>Code, off the row, metres per 100 words</caption>
+      <thead>
+        <tr><th>Finger</th><th>HackHaste</th><th>QWERTY</th><th>Dvorak</th><th>Colemak</th></tr>
+      </thead>
+      <tbody>
+        <tr><th>Left pinky</th><td>1.03</td><td>0.68</td><td>1.47</td><td>0.68</td></tr>
+        <tr><th>Left ring</th><td>1.20</td><td>0.70</td><td>0.95</td><td>0.70</td></tr>
+        <tr><th>Left middle</th><td>1.40</td><td>3.06</td><td>0.77</td><td>1.69</td></tr>
+        <tr><th>Left index</th><td>2.54</td><td>3.46</td><td>1.90</td><td>2.28</td></tr>
+        <tr><th>Left hand</th><td>6.16</td><td>7.90</td><td>5.08</td><td>5.34</td></tr>
+        <tr><th>Right index</th><td>2.41</td><td>3.03</td><td>2.36</td><td>2.09</td></tr>
+        <tr><th>Right middle</th><td>1.97</td><td>2.12</td><td>1.21</td><td>1.75</td></tr>
+        <tr><th>Right ring</th><td>1.14</td><td>2.58</td><td>2.49</td><td>2.00</td></tr>
+        <tr><th>Right pinky</th><td>2.76</td><td>4.17</td><td>4.11</td><td>4.23</td></tr>
+        <tr><th>Right hand</th><td>8.29</td><td>11.89</td><td>10.17</td><td>10.07</td></tr>
+      </tbody>
+    </table>
+    <div class="hh-cols pair">
+      <div class="hh-col">
+        <h4>Number row, code</h4>
+        <p>Two keys above home. Metres per 100 words.</p>
+        <div class="hh-row us"><span>HackHaste</span><span>4.35 mphw</span><span class="hh-track" aria-hidden="true"><span style="width:62%"></span></span></div>
+        <div class="hh-row"><span>QWERTY</span><span>6.89 mphw</span><span class="hh-track" aria-hidden="true"><span style="width:98%"></span></span></div>
+        <div class="hh-row"><span>Dvorak</span><span>6.02 mphw</span><span class="hh-track" aria-hidden="true"><span style="width:85%"></span></span></div>
+        <div class="hh-row"><span>Colemak</span><span>7.06 mphw</span><span class="hh-track" aria-hidden="true"><span style="width:100%"></span></span></div>
+      </div>
+      <div class="hh-col">
+        <h4>Number row, prose</h4>
+        <p>The books barely type a digit.</p>
+        <div class="hh-row"><span>HackHaste</span><span>0.51 mphw</span><span class="hh-track" aria-hidden="true"><span style="width:100%"></span></span></div>
+        <div class="hh-row"><span>QWERTY</span><span>0.16 mphw</span><span class="hh-track" aria-hidden="true"><span style="width:31%"></span></span></div>
+        <div class="hh-row us"><span>Dvorak</span><span>0.08 mphw</span><span class="hh-track" aria-hidden="true"><span style="width:16%"></span></span></div>
+        <div class="hh-row"><span>Colemak</span><span>0.16 mphw</span><span class="hh-track" aria-hidden="true"><span style="width:31%"></span></span></div>
+      </div>
+    </div>
+    <p class="hh-caption">The Big-Three’s 9 is the right ring on the number row, 41 mm from the home key. The usual 0 is the right pinky, also 41 mm. HackHaste’s 9 and 0 are on the upper row, 20 mm, above A and E. In code the walk that touches the number row is 7.06 mphw on Colemak and 4.35 mphw on HackHaste. The steps onto 9 and onto 0 are 0.71 mphw and 0.73 mphw on Colemak, and 0.38 mphw and 0.39 mphw on HackHaste. On the books those two digits barely occur, so the reach does not show up there. HackHaste’s prose number-row distance is the letters that moved onto that row as also mnemonically rare in distance, not the digits. Still HackHaste, despite appearing at first heavy on the right pinky, it is in fact revealed a third less than the other layouts.</p>
+  </div>
+
+  <h3>Scissors, and which hand</h3>
+  <div class="hh-prose">
+    <p>A scissor is two neighboring fingers on different rows, one after the other. Pinky and ring, or ring and middle, reaching opposite ways, one up, the other down, from the homerow position. </p>
+  </div>
+  <div class="hh-trade">
+    <div class="hh-cols">
+      <div class="hh-col">
+        <h4>Scissors, prose</h4>
+        <p>Share of pairs. Lower is better.</p>
+        <div class="hh-row us"><span>HackHaste</span><span>4.44%</span><span class="hh-track" aria-hidden="true"><span style="width:36%"></span></span></div>
+        <div class="hh-row"><span>QWERTY</span><span>12.50%</span><span class="hh-track" aria-hidden="true"><span style="width:100%"></span></span></div>
+        <div class="hh-row"><span>Dvorak</span><span>4.95%</span><span class="hh-track" aria-hidden="true"><span style="width:40%"></span></span></div>
+        <div class="hh-row"><span>Colemak</span><span>7.36%</span><span class="hh-track" aria-hidden="true"><span style="width:59%"></span></span></div>
+      </div>
+      <div class="hh-col">
+        <h4>Scissors, code</h4>
+        <p>Share of pairs. Lower is better. Here the .07% over Dvorak can be explained by the use of numbers above with the quote/double-quote, comma/less-than, period/greater-than, the divisor/fractions (frontslash), and plus/equal all on the bottomrow of the left hand. There is <em>STRONG</em> mnemonic functionality for function here not seen in any other layout.</p>
+        <div class="hh-row"><span>HackHaste</span><span>7.79%</span><span class="hh-track" aria-hidden="true"><span style="width:66%"></span></span></div>
+        <div class="hh-row"><span>QWERTY</span><span>11.84%</span><span class="hh-track" aria-hidden="true"><span style="width:100%"></span></span></div>
+        <div class="hh-row us"><span>Dvorak</span><span>7.72%</span><span class="hh-track" aria-hidden="true"><span style="width:65%"></span></span></div>
+        <div class="hh-row"><span>Colemak</span><span>9.42%</span><span class="hh-track" aria-hidden="true"><span style="width:80%"></span></span></div>
+      </div>
+    </div>
+
+    <p class="hh-caption">Hands trading off is the other one, and here more is better instead:</p>
+
+  <div class="hh-trade">
+    <div class="hh-cols">
+      <div class="hh-col">
+        <h4>Hands trading off in prose, the breath and the breather...</h4>
+        <p>Percentage of crossing pairs. More is better.</p>
+        <div class="hh-row us"><span>HackHaste</span><span>70.52%</span><span class="hh-track" aria-hidden="true"><span style="width:71%"></span></span></div>
+        <div class="hh-row"><span>QWERTY</span><span>53.55%</span><span class="hh-track" aria-hidden="true"><span style="width:54%"></span></span></div>
+        <div class="hh-row"><span>Dvorak</span><span>69.20%</span><span class="hh-track" aria-hidden="true"><span style="width:69%"></span></span></div>
+        <div class="hh-row"><span>Colemak</span><span>57.28%</span><span class="hh-track" aria-hidden="true"><span style="width:58%"></span></span></div>
+      </div>
+      <div class="hh-col">
+        <h4>Hands trading off, code still breathing...</h4>
+        <p>Percentage of crossing pairs. More is better</p>
+        <div class="hh-row"><span>HackHaste</span><span>62.59%</span><span class="hh-track" aria-hidden="true"><span style="width:63%"></span></span></div>
+        <div class="hh-row"><span>QWERTY</span><span>48.78%</span><span class="hh-track" aria-hidden="true"><span style="width:49%"></span></span></div>
+        <div class="hh-row us"><span>Dvorak</span><span>61.10%</span><span class="hh-track" aria-hidden="true"><span style="width:61%"></span></span></div>
+        <div class="hh-row"><span>Colemak</span><span>53.30%</span><span class="hh-track" aria-hidden="true"><span style="width:53%"></span></span></div>
+      </div>
+    </div>
+    <p class="hh-caption">The left handles the vowels alone because it is the weaker hand for most people, and that's why HackHaste was designed with layouts from the ground up for both handnesses. I will add metrics for the left-hand layout here soon, I will also be publishing the engine used for generating these metrics for four rows of keyboard, not found on any other layout tester.</p>
+
+  </div>
+
+</section>
 
     <footer class="hh-foot">
       <nav>
