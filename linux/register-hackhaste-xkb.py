@@ -2,7 +2,7 @@
 # Register HackHaste in XKB rules (evdev.xml / base.xml and matching .lst).
 # HackHaste keyboard layout. Dr. Marcus Roe, https://drm.cc/ . MIT License.
 # Usage:
-#   register-hackhaste-xkb.py              # patch /usr/share/xkeyboard-config-2
+#   register-hackhaste-xkb.py              # patch /usr/share/X11/xkb
 #   register-hackhaste-xkb.py /path/to/xkb
 #   register-hackhaste-xkb.py evdev.xml evdev.lst
 from __future__ import annotations
@@ -108,7 +108,7 @@ def patch_lst(path):
 
 
 def main(argv):
-    targets = argv or ["/usr/share/xkeyboard-config-2"]
+    targets = argv or ["/usr/share/X11/xkb"]
     for raw in targets:
         path = pathlib.Path(raw)
         if path.is_file() and path.suffix == ".xml":
