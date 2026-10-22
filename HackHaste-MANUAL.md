@@ -298,17 +298,36 @@ Archives in `[dist/](dist/)`:
 | `HackHaste-0.2-apple2.zip`               | Apple II ASCII remapper + ProDOS disk                 |
 
 
-```
 # any Linux with a root shell
+```bash
 cd linux && sudo ./install-hackhaste-linux.sh && setxkbmap haha
+```
 
 # Debian family
+```bash
 sudo dpkg -i dist/hackhaste_0.2_all.deb
+```
 
 # Arch
-sudo pacman -U dist/hackhaste-0.2-1-any.pkg.tar.*
+```bash
+sudo pacman -U dist/hackhaste-0.2-1-any.pkg.tar.zst
+```
+
+Below are additional ways to install the package manually from GitHub until official AUR registration is available again:
+
+```bash
+git clone https://github.com/24kjvs/aur-hackhaste.git
+cd aur-hackhaste
+makepkg -si
+```
+
+```bash
+yay -U https://github.com/24kjvs/aur-hackhaste/releases/download/v0.2/hackhaste-0.2-1-any.pkg.tar.zst
+```
 
 # Fedora / RHEL / openSUSE
+
+```bash
 sudo rpm -i dist/hackhaste-0.2-1.noarch.rpm
 ```
 
