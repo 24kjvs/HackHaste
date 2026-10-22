@@ -17,7 +17,7 @@ package() {
   local _linux
   _linux="$(cd "${startdir}/.." && pwd)"
   install -Dm644 "${_linux}/xkb/haha" \
-    "${pkgdir}/usr/share/X11/xkb/symbols/haha"
+    "${pkgdir}/usr/share/xkeyboard-config-2/symbols/haha"
   mkdir -p "${pkgdir}/usr/share/kbd/keymaps/i386/hackhaste"
   install -m644 "${_linux}"/console/*.map "${_linux}"/console/*.map.gz \
     "${pkgdir}/usr/share/kbd/keymaps/i386/hackhaste/"
