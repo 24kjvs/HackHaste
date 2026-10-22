@@ -6,7 +6,7 @@
 #   ./install-hackhaste-linux.sh --user        # ~/.xkb for X11 without root
 set -eu
 HERE=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
-SYS_XKB=${XKB_ROOT:-/usr/share/xkeyboard-config-2}
+SYS_XKB=${XKB_ROOT:-/usr/share/X11/xkb}
 SYS_MAP=${KBD_ROOT:-/usr/share/kbd/keymaps/i386/hackhaste}
 USER_XKB="$HOME/.xkb"
 
